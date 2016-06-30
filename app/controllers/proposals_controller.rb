@@ -1,14 +1,19 @@
 class ProposalsController < ApplicationController
-  before_action :set_proposal, only: [:show, :update, :destroy]
+  before_action :set_proposal, only: [:show, :update]
+  before_action :check_authentication, except: [:create, :update]
 
   # GET /proposals
   def index
-    @proposals = Proposal.all
+    @proposals = Proposal.all.map { |p|
+      safe = p.attributes.except('sekret', 'user_id')
+      safe['submission']['description'].delete 'redactions'
+      safe
+    }
 
     render json: @proposals
   end
 
-  # GET /proposals/1
+  # GET /proposals/magic-hash
   def show
     render json: @proposal
   end
@@ -41,7 +46,7 @@ class ProposalsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_proposal
-      @proposal = Proposal.find(params[:id])
+      @proposal = Proposal.find_by_sekret!(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
