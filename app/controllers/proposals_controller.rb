@@ -46,6 +46,6 @@ class ProposalsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def proposal_params
-      params.require(:proposal).permit(:user_id, :title, :submission)
+      params.require(:proposal).permit!
     end
 end
