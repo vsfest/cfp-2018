@@ -1,6 +1,6 @@
 class ProposalsController < ApplicationController
   before_action :set_proposal, only: [:show, :update]
-  before_action :check_authentication, except: [:create, :update]
+  before_action :check_authentication, except: [:show, :create, :update]
 
   # GET /proposals
   def index
@@ -8,6 +8,7 @@ class ProposalsController < ApplicationController
       safe = p.attributes.except('sekret', 'user_id')
       safe['submission'] = safe['submission'].except 'flights','twitter','photo','email'
       safe['submission']['description'].delete 'redactions'
+      safe['FULL_SUBMISSION_UNREDACTED'] = request.original_url + '/' + p.sekret
       safe
     }
 
@@ -47,7 +48,7 @@ class ProposalsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_proposal
-      @proposal = Proposal.find_by_sekret!(params[:id])
+      @proposal = Proposal.where(sekret: params[:id]).order("created_at desc").first
     end
 
     # Only allow a trusted parameter "white list" through.
