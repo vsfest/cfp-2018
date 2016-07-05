@@ -6,7 +6,7 @@ class ProposalsController < ApplicationController
   def index
     @proposals = Proposal.all.map { |p|
       safe = p.attributes.except('sekret', 'user_id')
-      safe['submission'] = safe['submission'].except 'flights','twitter','photo','email'
+      safe['submission'] = safe['submission'].except 'flights','twitter','photo','email','name'
       safe['submission']['description'].delete 'redactions'
       safe['FULL_SUBMISSION_UNREDACTED'] = request.original_url + '/' + p.sekret
       safe
