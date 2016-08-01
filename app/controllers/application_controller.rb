@@ -2,10 +2,15 @@ class ApplicationController < ActionController::API
   include ActionController::HttpAuthentication::Basic::ControllerMethods
 
   def check_authentication
-    id = Rails.application.message_verifier(:session).verify(bearer_token)
-    unless (@user = User.find(id))
-      render status: :forbidden
+    if request.referrer.nil?
+       @user = authenticate_or_request_with_http_basic('users') { |u,p|
+         User.authenticate(u,p)
+       }
+    else
+      id = Rails.application.message_verifier(:session).verify(bearer_token)
+      @user = User.find(id)
     end
+    render status: :forbidden unless @user
   rescue ActiveSupport::MessageVerifier::InvalidSignature
     render status: :forbidden
   end
