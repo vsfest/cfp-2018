@@ -1,11 +1,11 @@
 class SessionsController < ApplicationController
   def create
     if (user = User.authenticate(params[:username], params[:password]))
-      session[:user_id] = user.id
+      render json: {
+        sekret: Rails.application.message_verifier(:session).generate(user.id)
+      }
+    else
+      head :forbidden
     end
-  end
-
-  def destroy
-    session[:user_id] = null
   end
 end
