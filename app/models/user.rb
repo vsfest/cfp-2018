@@ -13,7 +13,8 @@ class User
     new(3, 'sharkie', '$2a$04$BIqMhj4hEJfb2gTcByjXbOftQfIBkft8nKlyddu2U07p6LiyoIeAW'),
     new(4, 'xzyfer',  '$2a$04$hVKN.wk4l6oTmzOJanWYSea8QR0vO4wBxIawHPzacUhpNKYuAtOlC'),
     new(5, 'fox',     '$2a$04$iDwViheGjdJolRmWocJEheIKazndSq.tj1aQgUIvyak4pWiF2IJnW'),
-    new(6, 'ben',     '$2a$04$/KLRvhsZ2GwXd8YDHcX9TeRLKHVlHhQkOCTjlb9LJWCJk1uWlqe/6')
+    new(6, 'ben',     '$2a$04$/KLRvhsZ2GwXd8YDHcX9TeRLKHVlHhQkOCTjlb9LJWCJk1uWlqe/6'),
+    new(7, 'jordan',  '$2a$04$V5z3dX8QdMM.Wxy1d94D9uVGelU5y.JBq9grvdhUcdKHFEkt9stWa')
   ]
 
   def self.find(id)
