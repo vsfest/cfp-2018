@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  prepared_statements: false
   database: vsconf-cfp_production
   username: vsconf-cfp
   password: <%= ENV['VSCONF-CFP_DATABASE_PASSWORD'] %>
