@@ -17,8 +17,7 @@ class User
     new(7, 'jordan',  '$2a$04$V5z3dX8QdMM.Wxy1d94D9uVGelU5y.JBq9grvdhUcdKHFEkt9stWa'),
     new(8, 'isakiko', '$2a$04$yx33PKJ.KqAZJbn2WwfLc.p7gixiu1xUBPHmqDAggzyzUMLeI5oGO'),
     new(9, 'jed',     '$2a$04$uhu7qi1rSPcuyCNzd30yTuVNItYpGOx/mq9O6ctLs9r7RKUYd0zLu'),
-    new(10,'kriesse', '$2a$04$ltFT3vhfY91f/RcEy9h0l.Y0wep8zIAXKE8z9s4qIL.gnsgD3FRCe'),
-    new(11,'glen2', 'not-really-a-thing-just-want-to-rekick-the-db')
+    new(10,'kriesse', '$2a$04$ltFT3vhfY91f/RcEy9h0l.Y0wep8zIAXKE8z9s4qIL.gnsgD3FRCe')
   ]
 
   def self.find(id)
