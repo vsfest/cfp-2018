@@ -4,7 +4,7 @@ class RoundsController < ApplicationController
   # GET /rounds/:id
   def show
     @votes = Vote.where(round: params[:id])
-      .index_by { |p| p[:proposal_id] }.values
+      .index_by { |p| [p[:user_id], p[:proposal_id]] }.values
 
     render json: @votes
   end
