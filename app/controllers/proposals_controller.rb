@@ -4,20 +4,20 @@ class ProposalsController < ApplicationController
 
   # GET /proposals
   def index
-    @proposals = Proposal.all.map { |p|
-      safe = p.attributes.except('user_id')
-      safe['submission'] = safe['submission'].except 'flights','twitter','photo','email','name'
-      safe['submission']['description'].delete 'redactions'
-      safe['FULL_SUBMISSION_UNREDACTED'] = request.original_url + '/' + p.sekret
-      safe
-    }.index_by { |p| p['sekret'] }.values
+    @proposals = Proposal.all
+      .map { |p| p.redacted(request.original_url) }
+      .index_by { |p| p['sekret'] }.values
 
     render json: @proposals
   end
 
   # GET /proposals/magic-hash
   def show
-    render json: @proposal
+    if params[:unredacted] == 'true'
+      render json: @proposal
+    else
+      render json: @proposal.redacted(request.original_url)
+    end
   end
 
   # POST /proposals
