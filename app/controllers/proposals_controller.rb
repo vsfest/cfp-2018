@@ -4,11 +4,14 @@ class ProposalsController < ApplicationController
 
   # GET /proposals
   def index
-    @proposals = Proposal.all
-      .map { |p| p.redacted(request.original_url) }
-      .index_by { |p| p['sekret'] }.values
+    if params[:unredacted] == 'true'
+      @proposals = Proposal.all
+    else
+      @proposals = Proposal.all
+        .map { |p| p.redacted(request.original_url) }
+    end
 
-    render json: @proposals
+    render json: @proposals.index_by { |p| p['sekret'] }.values
   end
 
   # GET /proposals/magic-hash
