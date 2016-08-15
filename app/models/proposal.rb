@@ -1,5 +1,6 @@
 class Proposal < ApplicationRecord
-  serialize :submission
+  serialize :submission # accidentally did this as YAML lol
+  serialize :round1_stats, JSON
   has_many :votes
 
   before_create def set_sekret

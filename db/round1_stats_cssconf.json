@@ -1,0 +1,6229 @@
+[
+  {
+    "counts": {
+      "Indifferent": 1,
+      "Two thumbs up": 7,
+      "One thumb up": 1
+    },
+    "scores": [
+      0,
+      3,
+      3,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "normalisedScores": [
+      0.5963132687752775,
+      1.7774026166306551,
+      1.876856991456587,
+      0.7779410645825497,
+      2.04560105863355,
+      2.183173509134253,
+      1.9737577256206429,
+      2.3670732349568397,
+      1.6855431724155074
+    ],
+    "proposal_id": 614,
+    "title": "Building a style guide for all Australians",
+    "conference": "css",
+    "mean": 2.4444444444444446,
+    "stddev": 1.065740338513938,
+    "normalisedMean": 1.6981847380228736,
+    "normalisedStddev": 0.5752866637717745
+  },
+  {
+    "counts": {
+      "One thumb up": 3,
+      "Indifferent": 1,
+      "Two thumbs up": 5
+    },
+    "scores": [
+      1,
+      0,
+      3,
+      3,
+      3,
+      1,
+      1,
+      3,
+      3
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      -0.25435244341438684,
+      2.3670732349568397,
+      1.876856991456587,
+      2.183173509134253,
+      0.7779410645825497,
+      0.7039761933543609,
+      1.9737577256206429,
+      1.6855431724155074
+    ],
+    "proposal_id": 400,
+    "title": "Accessibility matters. Let’s do something about it.",
+    "conference": "css",
+    "mean": 2,
+    "stddev": 1.1547005383792515,
+    "normalisedMean": 1.3793820533869496,
+    "normalisedStddev": 0.8083521081769582
+  },
+  {
+    "counts": {
+      "One thumb up": 3,
+      "Two thumbs up": 5,
+      "Indifferent": 1
+    },
+    "scores": [
+      1,
+      1,
+      3,
+      3,
+      3,
+      0,
+      1,
+      3,
+      3
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      0.7779410645825497,
+      1.7774026166306551,
+      2.3670732349568397,
+      1.9737577256206429,
+      -0.5007254163039652,
+      0.7039761933543609,
+      2.183173509134253,
+      1.6855431724155074
+    ],
+    "proposal_id": 597,
+    "title": "Functional UI and Style Composition",
+    "conference": "css",
+    "mean": 2,
+    "stddev": 1.1547005383792515,
+    "normalisedMean": 1.3409567925296706,
+    "normalisedStddev": 0.8592156899952389
+  },
+  {
+    "counts": {
+      "One thumb up": 3,
+      "Veto": 1,
+      "Two thumbs up": 5
+    },
+    "scores": [
+      1,
+      -3,
+      1,
+      3,
+      1,
+      3,
+      3,
+      3,
+      3
+    ],
+    "normalisedScores": [
+      0.42289924326729383,
+      -0.9161540220274716,
+      0.2918020529495522,
+      2.5440775355267164,
+      0.7039761933543609,
+      2.183173509134253,
+      1.9737577256206429,
+      2.3670732349568397,
+      1.6855431724155074
+    ],
+    "proposal_id": 509,
+    "title": "Human Compatibility Error: How novice tech users in West Africa respond to your fancy CSS",
+    "conference": "css",
+    "mean": 1.6666666666666667,
+    "stddev": 1.8856180831641267,
+    "normalisedMean": 1.2506831827997438,
+    "normalisedStddev": 1.110526661355651
+  },
+  {
+    "counts": {
+      "One thumb up": 4,
+      "Two thumbs up": 4,
+      "Indifferent": 1
+    },
+    "scores": [
+      1,
+      3,
+      3,
+      1,
+      1,
+      3,
+      3,
+      0,
+      1
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      1.7774026166306551,
+      1.876856991456587,
+      1.234198576865067,
+      0.7779410645825497,
+      2.04560105863355,
+      2.183173509134253,
+      -0.35807109181613433,
+      0.5761623158362987
+    ],
+    "proposal_id": 32,
+    "title": "Hey presto, CSS!",
+    "conference": "css",
+    "mean": 1.7777777777777777,
+    "stddev": 1.1331154474650633,
+    "normalisedMean": 1.2459704526332245,
+    "normalisedStddev": 0.7788987674802796
+  },
+  {
+    "counts": {
+      "Two thumbs up": 4,
+      "One thumb up": 5
+    },
+    "scores": [
+      3,
+      3,
+      1,
+      1,
+      3,
+      3,
+      1,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      1.7774026166306551,
+      0.2918020529495522,
+      0.7779410645825497,
+      2.3670732349568397,
+      2.04560105863355,
+      0.6984201606402642,
+      0.41920518066279144,
+      0.5761623158362987
+    ],
+    "proposal_id": 553,
+    "title": "Getting 'Up To Speed' with Accelerated Mobile Pages",
+    "conference": "css",
+    "mean": 1.8888888888888888,
+    "stddev": 0.9938079899999066,
+    "normalisedMean": 1.2291542493856142,
+    "normalisedStddev": 0.7804614616643716
+  },
+  {
+    "counts": {
+      "One thumb up": 3,
+      "Indifferent": 2,
+      "Two thumbs up": 4
+    },
+    "scores": [
+      1,
+      1,
+      0,
+      1,
+      3,
+      3,
+      3,
+      3,
+      0
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      0.42289924326729383,
+      -0.5007254163039652,
+      0.7779410645825497,
+      2.04560105863355,
+      2.183173509134253,
+      1.9737577256206429,
+      1.6855431724155074,
+      0.6677612478191808
+    ],
+    "proposal_id": 133,
+    "title": "Bauhaus in the Browser",
+    "conference": "css",
+    "mean": 1.6666666666666667,
+    "stddev": 1.247219128924647,
+    "normalisedMean": 1.1507134041716895,
+    "normalisedStddev": 0.8473443972847742
+  },
+  {
+    "counts": {
+      "Indifferent": 2,
+      "Two thumbs up": 3,
+      "Abstain positive": 4
+    },
+    "scores": [
+      0,
+      3,
+      3,
+      0,
+      3
+    ],
+    "normalisedScores": [
+      -0.10512717088953372,
+      2.1087805595780265,
+      1.7774026166306551,
+      -0.5007254163039652,
+      2.183173509134253
+    ],
+    "proposal_id": 544,
+    "title": "Building Tachyons: Things I learned trying to prove OOCSS wrong",
+    "conference": "css",
+    "mean": 1.8,
+    "stddev": 1.4696938456699067,
+    "normalisedMean": 1.092700819629887,
+    "normalisedStddev": 1.154483810153972
+  },
+  {
+    "counts": {
+      "One thumb up": 5,
+      "One thumb down": 1,
+      "Two thumbs up": 3
+    },
+    "scores": [
+      1,
+      -1,
+      1,
+      1,
+      3,
+      1,
+      3,
+      3,
+      1
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      -0.9316041300960676,
+      1.234198576865067,
+      0.2918020529495522,
+      2.5440775355267164,
+      0.7039761933543609,
+      2.183173509134253,
+      1.9737577256206429,
+      0.5761623158362987
+    ],
+    "proposal_id": 529,
+    "title": "Designing the Details: How Micro-Interactions Can Elevate Your UX",
+    "conference": "css",
+    "mean": 1.4444444444444444,
+    "stddev": 1.257078722109418,
+    "normalisedMean": 1.0751125346185575,
+    "normalisedStddev": 1.013593847271014
+  },
+  {
+    "counts": {
+      "Two thumbs up": 3,
+      "Indifferent": 2,
+      "One thumb up": 4
+    },
+    "scores": [
+      3,
+      0,
+      0,
+      1,
+      3,
+      1,
+      3,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      -0.25435244341438684,
+      -0.04395651360672998,
+      0.2918020529495522,
+      2.5440775355267164,
+      1.234198576865067,
+      2.04560105863355,
+      0.41920518066279144,
+      0.5761623158362987
+    ],
+    "proposal_id": 562,
+    "title": "Achieving \"Element-First\" Design with Context-Aware CSS",
+    "conference": "css",
+    "mean": 1.4444444444444444,
+    "stddev": 1.1653431646335017,
+    "normalisedMean": 0.9912798136700984,
+    "normalisedStddev": 0.9685479698373923
+  },
+  {
+    "counts": {
+      "Two thumbs up": 3,
+      "One thumb up": 3,
+      "Indifferent": 2,
+      "Abstain positive": 1
+    },
+    "scores": [
+      3,
+      1,
+      0,
+      0,
+      3,
+      3,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      0.42289924326729383,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      2.04560105863355,
+      2.183173509134253,
+      0.41920518066279144,
+      1.234198576865067
+    ],
+    "proposal_id": 315,
+    "title": "Const on Broadway: A Sassy Musical Revue",
+    "conference": "css",
+    "mean": 1.5,
+    "stddev": 1.224744871391589,
+    "normalisedMean": 0.9760006926184354,
+    "normalisedStddev": 0.9947780807652218
+  },
+  {
+    "counts": {
+      "Two thumbs up": 4,
+      "Indifferent": 3,
+      "One thumb down": 1,
+      "One thumb up": 1
+    },
+    "scores": [
+      3,
+      3,
+      0,
+      3,
+      -1,
+      0,
+      3,
+      1,
+      0
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      1.7774026166306551,
+      -0.10512717088953372,
+      1.876856991456587,
+      0.10132391877329436,
+      0.03316376071476645,
+      2.183173509134253,
+      0.41920518066279144,
+      0.02147188754669436
+    ],
+    "proposal_id": 588,
+    "title": "Using Musical Scales to Build Harmonious Typography",
+    "conference": "css",
+    "mean": 1.3333333333333333,
+    "stddev": 1.5634719199411433,
+    "normalisedMean": 0.9351390281786149,
+    "normalisedStddev": 0.9558708274115549
+  },
+  {
+    "counts": {
+      "Two thumbs up": 4,
+      "One thumb up": 3,
+      "Veto": 1,
+      "Indifferent": 1
+    },
+    "scores": [
+      3,
+      3,
+      3,
+      1,
+      1,
+      -3,
+      0,
+      1,
+      3
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      1.7774026166306551,
+      1.9737577256206429,
+      0.2918020529495522,
+      0.7779410645825497,
+      -1.0315507393184784,
+      0.03316376071476645,
+      0.6984201606402642,
+      1.6855431724155074
+    ],
+    "proposal_id": 428,
+    "title": "Nativize Is the New Normalize",
+    "conference": "css",
+    "mean": 1.3333333333333333,
+    "stddev": 1.8856180831641267,
+    "normalisedMean": 0.9239178193126095,
+    "normalisedStddev": 0.9946301292252943
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "Indifferent": 2,
+      "Two thumbs up": 4,
+      "One thumb up": 1,
+      "One thumb down": 1
+    },
+    "scores": [
+      -3,
+      0,
+      3,
+      3,
+      1,
+      0,
+      3,
+      -1,
+      3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.25435244341438684,
+      1.876856991456587,
+      2.5440775355267164,
+      0.7039761933543609,
+      -0.04395651360672998,
+      1.9737577256206429,
+      0.10132391877329436,
+      1.6855431724155074
+    ],
+    "proposal_id": 424,
+    "title": "Use Your Developer Superpowers for Good",
+    "conference": "css",
+    "mean": 1,
+    "stddev": 2.0548046676563256,
+    "normalisedMean": 0.8523413953442801,
+    "normalisedStddev": 1.1355439166946324
+  },
+  {
+    "counts": {
+      "One thumb down": 1,
+      "One thumb up": 6,
+      "Two thumbs up": 2
+    },
+    "scores": [
+      -1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      1,
+      1,
+      3
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      0.42289924326729383,
+      1.234198576865067,
+      0.2918020529495522,
+      0.7779410645825497,
+      2.04560105863355,
+      0.6984201606402642,
+      0.41920518066279144,
+      1.6855431724155074
+    ],
+    "proposal_id": 450,
+    "title": "Flying The Plane While Rebuilding It",
+    "conference": "css",
+    "mean": 1.2222222222222223,
+    "stddev": 1.1331154474650633,
+    "normalisedMean": 0.851974223910104,
+    "normalisedStddev": 0.6286887693621352
+  },
+  {
+    "counts": {
+      "One thumb up": 5,
+      "One thumb down": 1,
+      "Two thumbs up": 2,
+      "Indifferent": 1
+    },
+    "scores": [
+      1,
+      -1,
+      3,
+      1,
+      1,
+      1,
+      3,
+      1,
+      0
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      -0.9316041300960676,
+      1.876856991456587,
+      0.7779410645825497,
+      1.234198576865067,
+      0.7039761933543609,
+      2.183173509134253,
+      0.41920518066279144,
+      0.02147188754669436
+    ],
+    "proposal_id": 435,
+    "title": "Creating Killer Photoshop Effects in the Browser",
+    "conference": "css",
+    "mean": 1.1111111111111112,
+    "stddev": 1.1967032904743342,
+    "normalisedMean": 0.8206320339869365,
+    "normalisedStddev": 0.888634383028556
+  },
+  {
+    "counts": {
+      "One thumb up": 5,
+      "Indifferent": 2,
+      "Two thumbs up": 2
+    },
+    "scores": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      3,
+      1,
+      3
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      0.42289924326729383,
+      0.2918020529495522,
+      -0.10512717088953372,
+      1.234198576865067,
+      0.03316376071476645,
+      2.183173509134253,
+      0.41920518066279144,
+      1.6855431724155074
+    ],
+    "proposal_id": 349,
+    "title": "At Least 6 Ways to Win with CSS Modules",
+    "conference": "css",
+    "mean": 1.2222222222222223,
+    "stddev": 1.0304020550550783,
+    "normalisedMean": 0.8072585952773212,
+    "normalisedStddev": 0.7400044569846979
+  },
+  {
+    "counts": {
+      "One thumb up": 6,
+      "Two thumbs up": 2,
+      "One thumb down": 1
+    },
+    "scores": [
+      1,
+      3,
+      1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      3
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      1.7774026166306551,
+      0.7779410645825497,
+      -1.2932528855574823,
+      1.234198576865067,
+      0.7039761933543609,
+      0.6984201606402642,
+      0.41920518066279144,
+      1.6855431724155074
+    ],
+    "proposal_id": 271,
+    "title": "Everyone Matters: Optimizing for All Users",
+    "conference": "css",
+    "mean": 1.2222222222222223,
+    "stddev": 1.1331154474650633,
+    "normalisedMean": 0.7893225679966563,
+    "normalisedStddev": 0.8540117439965875
+  },
+  {
+    "counts": {
+      "Indifferent": 2,
+      "One thumb up": 3,
+      "Two thumbs up": 3,
+      "Veto": 1
+    },
+    "scores": [
+      0,
+      1,
+      1,
+      3,
+      -3,
+      1,
+      3,
+      0,
+      3
+    ],
+    "normalisedScores": [
+      0.5963132687752775,
+      0.42289924326729383,
+      0.2918020529495522,
+      2.5440775355267164,
+      -1.0315507393184784,
+      0.7039761933543609,
+      2.183173509134253,
+      -0.35807109181613433,
+      1.6855431724155074
+    ],
+    "proposal_id": 242,
+    "title": "Scaling a Massive CSS Code Base with Inspiration from Functional Programming",
+    "conference": "css",
+    "mean": 1,
+    "stddev": 1.8257418583505538,
+    "normalisedMean": 0.7820181271431499,
+    "normalisedStddev": 1.0996533666560138
+  },
+  {
+    "counts": {
+      "One thumb up": 2,
+      "Two thumbs up": 3,
+      "Indifferent": 3,
+      "One thumb down": 1
+    },
+    "scores": [
+      1,
+      3,
+      0,
+      3,
+      0,
+      0,
+      -1,
+      3,
+      1
+    ],
+    "normalisedScores": [
+      0.7779410645825497,
+      2.1087805595780265,
+      -0.25435244341438684,
+      1.876856991456587,
+      0.6677612478191808,
+      0.03316376071476645,
+      -0.7863331878537243,
+      1.9737577256206429,
+      0.5761623158362987
+    ],
+    "proposal_id": 301,
+    "title": "SVG: So Very Good",
+    "conference": "css",
+    "mean": 1.1111111111111112,
+    "stddev": 1.4487116456005886,
+    "normalisedMean": 0.7748597815933267,
+    "normalisedStddev": 0.9734687876729883
+  },
+  {
+    "counts": {
+      "Two thumbs up": 3,
+      "Indifferent": 4,
+      "One thumb up": 2
+    },
+    "scores": [
+      3,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      3,
+      3
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      -0.25435244341438684,
+      0.2918020529495522,
+      -0.10512717088953372,
+      1.234198576865067,
+      0.03316376071476645,
+      -0.04395651360672998,
+      1.9737577256206429,
+      1.6855431724155074
+    ],
+    "proposal_id": 399,
+    "title": "SVGs beyond mere shapes",
+    "conference": "css",
+    "mean": 1.2222222222222223,
+    "stddev": 1.314684396244359,
+    "normalisedMean": 0.7693121911369902,
+    "normalisedStddev": 0.9155649761500994
+  },
+  {
+    "counts": {
+      "One thumb up": 5,
+      "Two thumbs up": 2,
+      "Indifferent": 2
+    },
+    "scores": [
+      1,
+      3,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      3
+    ],
+    "normalisedScores": [
+      1.234198576865067,
+      2.1087805595780265,
+      0.42289924326729383,
+      -0.5007254163039652,
+      0.7779410645825497,
+      0.03316376071476645,
+      0.6984201606402642,
+      0.41920518066279144,
+      1.6855431724155074
+    ],
+    "proposal_id": 206,
+    "title": "Front-End Development in an Emerging Tech World",
+    "conference": "css",
+    "mean": 1.2222222222222223,
+    "stddev": 1.0304020550550783,
+    "normalisedMean": 0.7643807002691446,
+    "normalisedStddev": 0.7639184234321588
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "Two thumbs up": 3,
+      "One thumb up": 3,
+      "Indifferent": 2
+    },
+    "scores": [
+      -3,
+      3,
+      1,
+      0,
+      3,
+      0,
+      1,
+      3,
+      1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      1.7774026166306551,
+      0.2918020529495522,
+      -0.10512717088953372,
+      2.3670732349568397,
+      0.03316376071476645,
+      0.6984201606402642,
+      1.9737577256206429,
+      0.5761623158362987
+    ],
+    "proposal_id": 524,
+    "title": "Achieving Slick performance for your Apps on Low end devices",
+    "conference": "css",
+    "mean": 1,
+    "stddev": 1.8257418583505538,
+    "normalisedMean": 0.7440556304924459,
+    "normalisedStddev": 1.0237045044314625
+  },
+  {
+    "counts": {
+      "One thumb up": 6,
+      "Two thumbs up": 1,
+      "Indifferent": 2
+    },
+    "scores": [
+      1,
+      1,
+      3,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      0.42289924326729383,
+      1.1004690323761936,
+      1.876856991456587,
+      0.7779410645825497,
+      0.6677612478191808,
+      0.7039761933543609,
+      -0.04395651360672998,
+      0.41920518066279144,
+      0.5761623158362987
+    ],
+    "proposal_id": 55,
+    "title": "Mediaqueryless responsiveness",
+    "conference": "css",
+    "mean": 1,
+    "stddev": 0.816496580927726,
+    "normalisedMean": 0.7223683061942805,
+    "normalisedStddev": 0.5024863002050631
+  },
+  {
+    "counts": {
+      "Two thumbs up": 3,
+      "One thumb up": 2,
+      "Veto": 1,
+      "Indifferent": 3
+    },
+    "scores": [
+      3,
+      1,
+      3,
+      1,
+      -3,
+      0,
+      3,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      1.7774026166306551,
+      1.1004690323761936,
+      1.876856991456587,
+      0.7779410645825497,
+      -1.0315507393184784,
+      0.03316376071476645,
+      2.183173509134253,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 458,
+    "title": "Modular CSS",
+    "conference": "css",
+    "mean": 0.8888888888888888,
+    "stddev": 1.852592444503674,
+    "normalisedMean": 0.7089841145896764,
+    "normalisedStddev": 1.05061725925769
+  },
+  {
+    "counts": {
+      "Two thumbs up": 3,
+      "Veto": 1,
+      "One thumb up": 2,
+      "Indifferent": 2,
+      "One thumb down": 1
+    },
+    "scores": [
+      3,
+      -3,
+      1,
+      3,
+      3,
+      0,
+      1,
+      -1,
+      0
+    ],
+    "normalisedScores": [
+      1.7774026166306551,
+      -0.9161540220274716,
+      0.2918020529495522,
+      2.5440775355267164,
+      2.04560105863355,
+      -0.04395651360672998,
+      0.41920518066279144,
+      0.10132391877329436,
+      0.02147188754669436
+    ],
+    "proposal_id": 329,
+    "title": "CSS In React The Wrong Way",
+    "conference": "css",
+    "mean": 0.7777777777777778,
+    "stddev": 1.9309052441091963,
+    "normalisedMean": 0.6934193016765613,
+    "normalisedStddev": 1.0853253826110023
+  },
+  {
+    "counts": {
+      "One thumb up": 6,
+      "Indifferent": 2,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      3
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      -0.25435244341438684,
+      0.2918020529495522,
+      0.7779410645825497,
+      1.234198576865067,
+      0.03316376071476645,
+      0.6984201606402642,
+      0.41920518066279144,
+      1.6855431724155074
+    ],
+    "proposal_id": 136,
+    "title": "Component-first Layouts",
+    "conference": "css",
+    "mean": 1,
+    "stddev": 0.816496580927726,
+    "normalisedMean": 0.6651545064213673,
+    "normalisedStddev": 0.5786112483606979
+  },
+  {
+    "counts": {
+      "Two thumbs up": 1,
+      "One thumb up": 5,
+      "Delay judgement": 1,
+      "Indifferent": 2
+    },
+    "scores": [
+      3,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      0.42289924326729383,
+      0.2918020529495522,
+      0.7779410645825497,
+      1.234198576865067,
+      -0.04395651360672998,
+      0.41920518066279144,
+      0.02147188754669436
+    ],
+    "proposal_id": 576,
+    "title": "Image optimisation, for the greater good.",
+    "conference": "css",
+    "mean": 1,
+    "stddev": 0.8660254037844386,
+    "normalisedMean": 0.6540427564806555,
+    "normalisedStddev": 0.6703857905820639
+  },
+  {
+    "counts": {
+      "One thumb down": 3,
+      "One thumb up": 2,
+      "Indifferent": 1,
+      "Two thumbs up": 3
+    },
+    "scores": [
+      -1,
+      -1,
+      1,
+      1,
+      0,
+      3,
+      3,
+      -1,
+      3
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      0.41920518066279144,
+      0.2918020529495522,
+      -0.10512717088953372,
+      2.04560105863355,
+      2.183173509134253,
+      0.10132391877329436,
+      1.6855431724155074
+    ],
+    "proposal_id": 210,
+    "title": "Gradient Circus",
+    "conference": "css",
+    "mean": 0.8888888888888888,
+    "stddev": 1.6629588385661962,
+    "normalisedMean": 0.6424527885286343,
+    "normalisedStddev": 1.0130073335205516
+  },
+  {
+    "counts": {
+      "Two thumbs up": 3,
+      "Indifferent": 1,
+      "One thumb down": 1,
+      "One thumb up": 1,
+      "Abstain positive": 2,
+      "Veto": 1
+    },
+    "scores": [
+      3,
+      0,
+      3,
+      -1,
+      3,
+      1,
+      -3
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      -0.25435244341438684,
+      1.876856991456587,
+      -0.9881954063616173,
+      2.04560105863355,
+      0.6984201606402642,
+      -1.0315507393184784
+    ],
+    "proposal_id": 267,
+    "title": "3.14 things I didn’t know about CSS",
+    "conference": "css",
+    "mean": 0.8571428571428571,
+    "stddev": 2.166535841157586,
+    "normalisedMean": 0.6365085973162777,
+    "normalisedStddev": 1.3044507284083748
+  },
+  {
+    "counts": {
+      "Two thumbs up": 3,
+      "One thumb down": 1,
+      "One thumb up": 2,
+      "Veto": 1,
+      "Indifferent": 1,
+      "Delay judgement": 1
+    },
+    "scores": [
+      3,
+      3,
+      -1,
+      1,
+      -3,
+      0,
+      3,
+      1
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      1.7774026166306551,
+      -1.2932528855574823,
+      0.7779410645825497,
+      -1.0315507393184784,
+      0.03316376071476645,
+      2.183173509134253,
+      0.41920518066279144
+    ],
+    "proposal_id": 224,
+    "title": "The Ghosts of Stylesheets Past",
+    "conference": "css",
+    "mean": 0.875,
+    "stddev": 2.027159342528357,
+    "normalisedMean": 0.6218578833033852,
+    "normalisedStddev": 1.2647790981584048
+  },
+  {
+    "counts": {
+      "One thumb down": 1,
+      "Two thumbs up": 2,
+      "One thumb up": 3,
+      "Indifferent": 3
+    },
+    "scores": [
+      -1,
+      3,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      3
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      1.7774026166306551,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.7039761933543609,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      1.234198576865067,
+      1.6855431724155074
+    ],
+    "proposal_id": 335,
+    "title": "Building a CSS framework, at scale, with confidence",
+    "conference": "css",
+    "mean": 0.8888888888888888,
+    "stddev": 1.2862041003100249,
+    "normalisedMean": 0.5864361490085673,
+    "normalisedStddev": 0.7570937481697236
+  },
+  {
+    "counts": {
+      "One thumb up": 5,
+      "One thumb down": 1,
+      "Indifferent": 2,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      1,
+      -1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      3,
+      1
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      -0.9316041300960676,
+      0.6677612478191808,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.7039761933543609,
+      0.6984201606402642,
+      1.9737577256206429,
+      0.5761623158362987
+    ],
+    "proposal_id": 571,
+    "title": "Focusing on Focus",
+    "conference": "css",
+    "mean": 0.7777777777777778,
+    "stddev": 1.0304020550550783,
+    "normalisedMean": 0.5528463808456547,
+    "normalisedStddev": 0.7513933190038895
+  },
+  {
+    "counts": {
+      "Indifferent": 2,
+      "One thumb down": 3,
+      "Two thumbs up": 3,
+      "One thumb up": 1
+    },
+    "scores": [
+      0,
+      -1,
+      3,
+      3,
+      0,
+      -1,
+      1,
+      -1,
+      3
+    ],
+    "normalisedScores": [
+      -0.10512717088953372,
+      0.09215750517436108,
+      1.7774026166306551,
+      1.9737577256206429,
+      -0.5007254163039652,
+      0.10132391877329436,
+      0.7039761933543609,
+      -0.7863331878537243,
+      1.6855431724155074
+    ],
+    "proposal_id": 219,
+    "title": "Moving Pictures - on web Video and Interactivity",
+    "conference": "css",
+    "mean": 0.7777777777777778,
+    "stddev": 1.6850834320114558,
+    "normalisedMean": 0.5491083729912887,
+    "normalisedStddev": 0.9761998275355761
+  },
+  {
+    "counts": {
+      "One thumb up": 3,
+      "One thumb down": 2,
+      "Indifferent": 2,
+      "Two thumbs up": 2
+    },
+    "scores": [
+      1,
+      1,
+      -1,
+      0,
+      3,
+      -1,
+      1,
+      3,
+      0
+    ],
+    "normalisedScores": [
+      0.7779410645825497,
+      1.1004690323761936,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      2.04560105863355,
+      -0.7863331878537243,
+      1.234198576865067,
+      1.9737577256206429,
+      0.02147188754669436
+    ],
+    "proposal_id": 620,
+    "title": "Powerful animations in CSS: Limited only by your imagination",
+    "conference": "css",
+    "mean": 0.7777777777777778,
+    "stddev": 1.3966450099973928,
+    "normalisedMean": 0.5483085123745489,
+    "normalisedStddev": 1.07761500382335
+  },
+  {
+    "counts": {
+      "Two thumbs up": 2,
+      "Indifferent": 1,
+      "One thumb up": 2,
+      "One thumb down": 3,
+      "Delay judgement": 1
+    },
+    "scores": [
+      3,
+      0,
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      3
+    ],
+    "normalisedScores": [
+      2.5440775355267164,
+      -0.25435244341438684,
+      1.1004690323761936,
+      0.10132391877329436,
+      0.2918020529495522,
+      -0.6376486719248281,
+      -0.7863331878537243,
+      1.9737577256206429
+    ],
+    "proposal_id": 199,
+    "title": "Mental health: how to fight back against chronic burnout",
+    "conference": "css",
+    "mean": 0.625,
+    "stddev": 1.5761900266148114,
+    "normalisedMean": 0.5416369952566824,
+    "normalisedStddev": 1.1411147472763243
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "Indifferent": 3,
+      "Two thumbs up": 3,
+      "One thumb up": 1
+    },
+    "scores": [
+      -3,
+      0,
+      3,
+      3,
+      0,
+      1,
+      3,
+      0,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.25435244341438684,
+      1.876856991456587,
+      2.5440775355267164,
+      0.6677612478191808,
+      0.7039761933543609,
+      2.183173509134253,
+      -0.35807109181613433,
+      -1.642599397322119
+    ],
+    "proposal_id": 79,
+    "title": "The Seven Righteous Fights",
+    "conference": "css",
+    "mean": 0.4444444444444444,
+    "stddev": 2.216659704806667,
+    "normalisedMean": 0.5338520580789985,
+    "normalisedStddev": 1.3690246192991313
+  },
+  {
+    "counts": {
+      "One thumb up": 5,
+      "Two thumbs up": 1,
+      "One thumb down": 2,
+      "Indifferent": 1
+    },
+    "scores": [
+      1,
+      1,
+      1,
+      3,
+      1,
+      -1,
+      0,
+      1,
+      -1
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      0.42289924326729383,
+      0.2918020529495522,
+      2.183173509134253,
+      0.7779410645825497,
+      0.10132391877329436,
+      0.03316376071476645,
+      0.41920518066279144,
+      -0.5332185407429101
+    ],
+    "proposal_id": 88,
+    "title": "Lets Test Our CSS",
+    "conference": "css",
+    "mean": 0.6666666666666666,
+    "stddev": 1.1547005383792515,
+    "normalisedMean": 0.5329732468575317,
+    "normalisedStddev": 0.7273498470982119
+  },
+  {
+    "counts": {
+      "One thumb down": 2,
+      "One thumb up": 2,
+      "Indifferent": 3,
+      "Two thumbs up": 2
+    },
+    "scores": [
+      -1,
+      1,
+      0,
+      1,
+      -1,
+      3,
+      3,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      0.42289924326729383,
+      -0.5007254163039652,
+      0.7779410645825497,
+      0.10132391877329436,
+      2.04560105863355,
+      2.183173509134253,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 221,
+    "title": "CSS4 Grid: True Layout Finally Arrives",
+    "conference": "css",
+    "mean": 0.6666666666666666,
+    "stddev": 1.4142135623730951,
+    "normalisedMean": 0.5317524087768775,
+    "normalisedStddev": 0.9182157908674834
+  },
+  {
+    "counts": {
+      "Indifferent": 3,
+      "Two thumbs up": 1,
+      "One thumb down": 1,
+      "One thumb up": 3,
+      "Delay judgement": 1
+    },
+    "scores": [
+      0,
+      0,
+      3,
+      -1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      0.5963132687752775,
+      -0.25435244341438684,
+      1.876856991456587,
+      0.10132391877329436,
+      0.7779410645825497,
+      0.03316376071476645,
+      0.6984201606402642,
+      0.41920518066279144
+    ],
+    "proposal_id": 437,
+    "title": "You are not your User - why great design is born from diversity",
+    "conference": "css",
+    "mean": 0.625,
+    "stddev": 1.1110243021644486,
+    "normalisedMean": 0.5311089877738929,
+    "normalisedStddev": 0.6089278659046543
+  },
+  {
+    "counts": {
+      "One thumb up": 2,
+      "One thumb down": 3,
+      "Two thumbs up": 2,
+      "Indifferent": 2
+    },
+    "scores": [
+      1,
+      -1,
+      3,
+      1,
+      -1,
+      0,
+      0,
+      3,
+      -1
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      -0.9316041300960676,
+      1.876856991456587,
+      0.7779410645825497,
+      0.10132391877329436,
+      0.03316376071476645,
+      -0.04395651360672998,
+      1.9737577256206429,
+      -0.5332185407429101
+    ],
+    "proposal_id": 28,
+    "title": "Emotional Intelligence in User Experience Design",
+    "conference": "css",
+    "mean": 0.5555555555555556,
+    "stddev": 1.4989708403591158,
+    "normalisedMean": 0.48385925656425843,
+    "normalisedStddev": 0.9599169471930631
+  },
+  {
+    "counts": {
+      "Indifferent": 5,
+      "Abstain negative": 1,
+      "Two thumbs up": 1,
+      "Abstain positive": 1,
+      "Delay judgement": 1
+    },
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "normalisedScores": [
+      0.5963132687752775,
+      -0.25435244341438684,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      0.6677612478191808,
+      2.183173509134253
+    ],
+    "proposal_id": 20,
+    "title": "Websites and Breakdancing",
+    "conference": "css",
+    "mean": 0.5,
+    "stddev": 1.118033988749895,
+    "normalisedMean": 0.4311738325201376,
+    "normalisedStddev": 0.8924450269301668
+  },
+  {
+    "counts": {
+      "One thumb up": 3,
+      "Two thumbs up": 1,
+      "Indifferent": 5
+    },
+    "scores": [
+      1,
+      3,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      1.7774026166306551,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      0.7039761933543609,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      1.234198576865067,
+      0.02147188754669436
+    ],
+    "proposal_id": 269,
+    "title": "Building Design Systems Ops into your company's workflow",
+    "conference": "css",
+    "mean": 0.6666666666666666,
+    "stddev": 0.9428090415820634,
+    "normalisedMean": 0.4255153460174009,
+    "normalisedStddev": 0.7565885981703858
+  },
+  {
+    "counts": {
+      "Indifferent": 2,
+      "One thumb up": 2,
+      "Two thumbs up": 2,
+      "One thumb down": 3
+    },
+    "scores": [
+      0,
+      1,
+      0,
+      3,
+      3,
+      1,
+      -1,
+      -1,
+      -1
+    ],
+    "normalisedScores": [
+      -0.25435244341438684,
+      1.1004690323761936,
+      -0.10512717088953372,
+      1.876856991456587,
+      2.04560105863355,
+      0.6984201606402642,
+      0.10132391877329436,
+      -1.1353473642950602,
+      -0.5332185407429101
+    ],
+    "proposal_id": 253,
+    "title": "Building Blocks of Clay - Statically Analyzable, Functional and Pure CSS",
+    "conference": "css",
+    "mean": 0.5555555555555556,
+    "stddev": 1.4989708403591158,
+    "normalisedMean": 0.4216250713931109,
+    "normalisedStddev": 1.0255263383515234
+  },
+  {
+    "counts": {
+      "One thumb up": 4,
+      "One thumb down": 2,
+      "Indifferent": 2,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      1,
+      -1,
+      1,
+      0,
+      1,
+      -1,
+      3,
+      0,
+      1
+    ],
+    "normalisedScores": [
+      0.42289924326729383,
+      0.09215750517436108,
+      0.7779410645825497,
+      -0.5007254163039652,
+      1.234198576865067,
+      -0.6376486719248281,
+      2.183173509134253,
+      -0.35807109181613433,
+      0.5761623158362987
+    ],
+    "proposal_id": 583,
+    "title": "Building a React Toolbox",
+    "conference": "css",
+    "mean": 0.5555555555555556,
+    "stddev": 1.1653431646335017,
+    "normalisedMean": 0.4211207816460995,
+    "normalisedStddev": 0.856571787970168
+  },
+  {
+    "counts": {
+      "One thumb up": 3,
+      "One thumb down": 3,
+      "Two thumbs up": 2,
+      "Indifferent": 1
+    },
+    "scores": [
+      1,
+      -1,
+      3,
+      -1,
+      -1,
+      1,
+      0,
+      3,
+      1
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      -0.9316041300960676,
+      1.876856991456587,
+      -0.9881954063616173,
+      -0.6376486719248281,
+      0.6984201606402642,
+      -0.35807109181613433,
+      2.3670732349568397,
+      0.5761623158362987
+    ],
+    "proposal_id": 91,
+    "title": "Take It Easy",
+    "conference": "css",
+    "mean": 0.6666666666666666,
+    "stddev": 1.4907119849998598,
+    "normalisedMean": 0.41149582611861507,
+    "normalisedStddev": 1.1552624285790316
+  },
+  {
+    "counts": {
+      "One thumb up": 5,
+      "Indifferent": 4
+    },
+    "scores": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      -0.25435244341438684,
+      -0.5007254163039652,
+      0.7779410645825497,
+      0.6677612478191808,
+      0.03316376071476645,
+      0.6984201606402642,
+      0.41920518066279144,
+      0.5761623158362987
+    ],
+    "proposal_id": 129,
+    "title": "Flipping tables: Displaying Data on Small Screens",
+    "conference": "css",
+    "mean": 0.5555555555555556,
+    "stddev": 0.4969039949999533,
+    "normalisedMean": 0.39089387810152143,
+    "normalisedStddev": 0.4942957865419551
+  },
+  {
+    "counts": {
+      "Indifferent": 4,
+      "Two thumbs up": 2,
+      "One thumb up": 2,
+      "Veto": 1
+    },
+    "scores": [
+      0,
+      3,
+      1,
+      0,
+      1,
+      0,
+      0,
+      -3,
+      3
+    ],
+    "normalisedScores": [
+      0.5963132687752775,
+      1.7774026166306551,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.7039761933543609,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      -1.0315507393184784,
+      1.6855431724155074
+    ],
+    "proposal_id": 472,
+    "title": "Web Components and Design Systems",
+    "conference": "css",
+    "mean": 0.5555555555555556,
+    "stddev": 1.7069212773041351,
+    "normalisedMean": 0.3907035320549418,
+    "normalisedStddev": 0.867178615665224
+  },
+  {
+    "counts": {
+      "Indifferent": 5,
+      "One thumb down": 1,
+      "One thumb up": 2,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      0,
+      -1,
+      1,
+      1,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      -0.10512717088953372,
+      0.09215750517436108,
+      0.42289924326729383,
+      0.2918020529495522,
+      0.6677612478191808,
+      0.03316376071476645,
+      2.183173509134253,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 574,
+    "title": "How to win friends and influence how people write CSS",
+    "conference": "css",
+    "mean": 0.4444444444444444,
+    "stddev": 1.0657403385139377,
+    "normalisedMean": 0.36102566043338147,
+    "normalisedStddev": 0.7033577110551886
+  },
+  {
+    "counts": {
+      "One thumb down": 3,
+      "Indifferent": 3,
+      "One thumb up": 1,
+      "Two thumbs up": 2
+    },
+    "scores": [
+      -1,
+      -1,
+      0,
+      1,
+      0,
+      0,
+      -1,
+      3,
+      3
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      0.7779410645825497,
+      0.03316376071476645,
+      -0.04395651360672998,
+      0.10132391877329436,
+      1.9737577256206429,
+      1.6855431724155074
+    ],
+    "proposal_id": 41,
+    "title": "CSS transforms and their perspective",
+    "conference": "css",
+    "mean": 0.4444444444444444,
+    "stddev": 1.4989708403591155,
+    "normalisedMean": 0.35417789858603993,
+    "normalisedStddev": 0.9039047111160251
+  },
+  {
+    "counts": {
+      "One thumb down": 2,
+      "One thumb up": 3,
+      "Indifferent": 3,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      -1,
+      1,
+      1,
+      0,
+      -1,
+      0,
+      0,
+      1,
+      3
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      0.42289924326729383,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.10132391877329436,
+      0.03316376071476645,
+      -0.04395651360672998,
+      0.41920518066279144,
+      1.6855431724155074
+    ],
+    "proposal_id": 212,
+    "title": "Harden your code using CSS Custom Properties ",
+    "conference": "css",
+    "mean": 0.4444444444444444,
+    "stddev": 1.1653431646335017,
+    "normalisedMean": 0.3218901277179225,
+    "normalisedStddev": 0.5143609803738483
+  },
+  {
+    "counts": {
+      "One thumb down": 3,
+      "One thumb up": 3,
+      "Indifferent": 2,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      -1,
+      1,
+      0,
+      0,
+      -1,
+      1,
+      3,
+      1,
+      -1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      0.42289924326729383,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      0.10132391877329436,
+      0.7039761933543609,
+      2.183173509134253,
+      0.41920518066279144,
+      -0.5332185407429101
+    ],
+    "proposal_id": 339,
+    "title": "Creating Beautiful, Accessible and User-Friendly Forms",
+    "conference": "css",
+    "mean": 0.3333333333333333,
+    "stddev": 1.247219128924647,
+    "normalisedMean": 0.30929604693666063,
+    "normalisedStddev": 0.768858361645483
+  },
+  {
+    "counts": {
+      "One thumb down": 1,
+      "Veto": 1,
+      "Two thumbs up": 1,
+      "Indifferent": 2,
+      "One thumb up": 3,
+      "Abstain negative": 1
+    },
+    "scores": [
+      -1,
+      -3,
+      3,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      -0.9316041300960676,
+      -0.9161540220274716,
+      1.876856991456587,
+      -0.10512717088953372,
+      0.6984201606402642,
+      0.6677612478191808,
+      0.7039761933543609,
+      0.41920518066279144
+    ],
+    "proposal_id": 570,
+    "title": "Flagsass",
+    "conference": "css",
+    "mean": 0.25,
+    "stddev": 1.6393596310755,
+    "normalisedMean": 0.30166680636501386,
+    "normalisedStddev": 0.8744896160339869
+  },
+  {
+    "counts": {
+      "Indifferent": 5,
+      "One thumb down": 2,
+      "Two thumbs up": 2
+    },
+    "scores": [
+      0,
+      0,
+      -1,
+      3,
+      0,
+      0,
+      -1,
+      3,
+      0
+    ],
+    "normalisedScores": [
+      -0.10512717088953372,
+      0.5963132687752775,
+      -0.9316041300960676,
+      1.876856991456587,
+      0.03316376071476645,
+      -0.04395651360672998,
+      -1.1353473642950602,
+      2.3670732349568397,
+      0.02147188754669436
+    ],
+    "proposal_id": 585,
+    "title": "Enemies No More: Using Sass & PostCSS Together",
+    "conference": "css",
+    "mean": 0.4444444444444444,
+    "stddev": 1.4229164972072998,
+    "normalisedMean": 0.29764932939586375,
+    "normalisedStddev": 1.0982463768252828
+  },
+  {
+    "counts": {
+      "One thumb up": 4,
+      "Two thumbs up": 1,
+      "Veto": 1,
+      "Indifferent": 3
+    },
+    "scores": [
+      1,
+      3,
+      -3,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      0.7779410645825497,
+      2.1087805595780265,
+      -2.2861075034594287,
+      0.2918020529495522,
+      0.7039761933543609,
+      0.6984201606402642,
+      0.6677612478191808,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 37,
+    "title": "Building Modern Emails",
+    "conference": "css",
+    "mean": 0.4444444444444444,
+    "stddev": 1.4989708403591158,
+    "normalisedMean": 0.2917749523550073,
+    "normalisedStddev": 1.113320575422807
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb up": 3,
+      "Indifferent": 3,
+      "One thumb down": 1,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      -3,
+      1,
+      1,
+      0,
+      -1,
+      1,
+      0,
+      3,
+      0
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      0.42289924326729383,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.10132391877329436,
+      0.7039761933543609,
+      -0.04395651360672998,
+      1.9737577256206429,
+      0.02147188754669436
+    ],
+    "proposal_id": 463,
+    "title": "The Ideal Styling Language: a gedankenexperiment",
+    "conference": "css",
+    "mean": 0.2222222222222222,
+    "stddev": 1.547598697464902,
+    "normalisedMean": 0.2722214794431226,
+    "normalisedStddev": 0.7341966971672642
+  },
+  {
+    "counts": {
+      "One thumb down": 3,
+      "One thumb up": 2,
+      "Two thumbs up": 2,
+      "Veto": 1,
+      "Indifferent": 1
+    },
+    "scores": [
+      -1,
+      -1,
+      1,
+      3,
+      -3,
+      -1,
+      3,
+      1,
+      0
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      0.2918020529495522,
+      2.5440775355267164,
+      -1.9792735372040173,
+      -0.7863331878537243,
+      1.9737577256206429,
+      0.5761623158362987,
+      0.6677612478191808
+    ],
+    "proposal_id": 535,
+    "title": "What the data says about CSS",
+    "conference": "css",
+    "mean": 0.2222222222222222,
+    "stddev": 1.872477727372524,
+    "normalisedMean": 0.27205639197477144,
+    "normalisedStddev": 1.3323812166044278
+  },
+  {
+    "counts": {
+      "One thumb down": 4,
+      "Two thumbs up": 2,
+      "One thumb up": 1,
+      "Indifferent": 2
+    },
+    "scores": [
+      -1,
+      3,
+      1,
+      -1,
+      0,
+      3,
+      0,
+      -1,
+      -1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      1.7774026166306551,
+      0.6984201606402642,
+      -1.2932528855574823,
+      -0.10512717088953372,
+      2.04560105863355,
+      -0.35807109181613433,
+      0.10132391877329436,
+      -0.5332185407429101
+    ],
+    "proposal_id": 175,
+    "title": "Everything I Know About Web Design I Learned from Geocities",
+    "conference": "css",
+    "mean": 0.3333333333333333,
+    "stddev": 1.5634719199411433,
+    "normalisedMean": 0.269470618982896,
+    "normalisedStddev": 1.0161340655393458
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "Two thumbs up": 1,
+      "One thumb up": 3,
+      "Indifferent": 3,
+      "One thumb down": 1
+    },
+    "scores": [
+      -3,
+      3,
+      1,
+      1,
+      0,
+      -1,
+      0,
+      1,
+      0
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      1.7774026166306551,
+      0.7779410645825497,
+      0.2918020529495522,
+      0.6677612478191808,
+      -0.6376486719248281,
+      -0.04395651360672998,
+      0.41920518066279144,
+      0.02147188754669436
+    ],
+    "proposal_id": 209,
+    "title": "Unexpected Consequences",
+    "conference": "css",
+    "mean": 0.2222222222222222,
+    "stddev": 1.547598697464902,
+    "normalisedMean": 0.261980538070266,
+    "normalisedStddev": 0.7529026707231204
+  },
+  {
+    "counts": {
+      "One thumb down": 3,
+      "Indifferent": 3,
+      "Two thumbs up": 1,
+      "One thumb up": 2
+    },
+    "scores": [
+      -1,
+      0,
+      3,
+      0,
+      -1,
+      1,
+      0,
+      1,
+      -1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.25435244341438684,
+      1.876856991456587,
+      -0.10512717088953372,
+      0.10132391877329436,
+      0.7039761933543609,
+      -0.04395651360672998,
+      0.41920518066279144,
+      -0.5332185407429101
+    ],
+    "proposal_id": 346,
+    "title": "Grid Layout. Anything Is Possible",
+    "conference": "css",
+    "mean": 0.2222222222222222,
+    "stddev": 1.227262335243029,
+    "normalisedMean": 0.25076279119642597,
+    "normalisedStddev": 0.6673938076771458
+  },
+  {
+    "counts": {
+      "Two thumbs up": 1,
+      "Indifferent": 5,
+      "One thumb up": 2,
+      "One thumb down": 1
+    },
+    "scores": [
+      3,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      -1,
+      0
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      -0.25435244341438684,
+      -0.5007254163039652,
+      0.7779410645825497,
+      1.234198576865067,
+      0.03316376071476645,
+      -0.04395651360672998,
+      -1.1353473642950602,
+      0.02147188754669436
+    ],
+    "proposal_id": 234,
+    "title": "You Got CSS in My JavaScript!",
+    "conference": "css",
+    "mean": 0.4444444444444444,
+    "stddev": 1.0657403385139377,
+    "normalisedMean": 0.2490193457407735,
+    "normalisedStddev": 0.9204603897723469
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb up": 2,
+      "Two thumbs up": 1,
+      "Indifferent": 5
+    },
+    "scores": [
+      -3,
+      1,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      0.42289924326729383,
+      1.876856991456587,
+      -0.10512717088953372,
+      0.6677612478191808,
+      0.03316376071476645,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      0.5761623158362987
+    ],
+    "proposal_id": 407,
+    "title": "Building Modular UI Systems",
+    "conference": "css",
+    "mean": 0.2222222222222222,
+    "stddev": 1.4740554623801778,
+    "normalisedMean": 0.23928164008380637,
+    "normalisedStddev": 0.7412931296148482
+  },
+  {
+    "counts": {
+      "Indifferent": 4,
+      "One thumb up": 4,
+      "One thumb down": 1
+    },
+    "scores": [
+      0,
+      1,
+      -1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "normalisedScores": [
+      -0.10512717088953372,
+      0.42289924326729383,
+      0.09215750517436108,
+      0.2918020529495522,
+      1.234198576865067,
+      0.03316376071476645,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      0.5761623158362987
+    ],
+    "proposal_id": 384,
+    "title": "Finding a Ubiquitous Design Language",
+    "conference": "css",
+    "mean": 0.3333333333333333,
+    "stddev": 0.6666666666666666,
+    "normalisedMean": 0.23813651983277126,
+    "normalisedStddev": 0.44216788860384676
+  },
+  {
+    "counts": {
+      "One thumb down": 2,
+      "One thumb up": 3,
+      "Veto": 1,
+      "Two thumbs up": 1,
+      "Delay judgement": 1,
+      "Indifferent": 1
+    },
+    "scores": [
+      -1,
+      1,
+      1,
+      1,
+      -3,
+      3,
+      -1,
+      0
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      0.42289924326729383,
+      0.2918020529495522,
+      0.7779410645825497,
+      -1.0315507393184784,
+      2.04560105863355,
+      -0.7863331878537243,
+      0.02147188754669436
+    ],
+    "proposal_id": 414,
+    "title": "Becoming Responsible for CSS",
+    "conference": "css",
+    "mean": 0.125,
+    "stddev": 1.6909686573085854,
+    "normalisedMean": 0.2292486106227248,
+    "normalisedStddev": 0.889142821285762
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb up": 3,
+      "Indifferent": 3,
+      "One thumb down": 1,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      -3,
+      1,
+      0,
+      0,
+      1,
+      -1,
+      0,
+      3,
+      1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      0.42289924326729383,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      0.7039761933543609,
+      -0.7863331878537243,
+      0.6677612478191808,
+      1.9737577256206429,
+      0.5761623158362987
+    ],
+    "proposal_id": 370,
+    "title": "Dude, where’s my tricorder?",
+    "conference": "css",
+    "mean": 0.2222222222222222,
+    "stddev": 1.547598697464902,
+    "normalisedMean": 0.2262463254247869,
+    "normalisedStddev": 0.8567874784829899
+  },
+  {
+    "counts": {
+      "Indifferent": 4,
+      "Two thumbs up": 1,
+      "One thumb down": 2,
+      "One thumb up": 2
+    },
+    "scores": [
+      0,
+      3,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      0.5963132687752775,
+      1.7774026166306551,
+      -0.10512717088953372,
+      -1.2932528855574823,
+      0.6677612478191808,
+      -0.6376486719248281,
+      -0.04395651360672998,
+      0.41920518066279144,
+      0.5761623158362987
+    ],
+    "proposal_id": 302,
+    "title": "Using Tomorrow's CSS Today",
+    "conference": "css",
+    "mean": 0.3333333333333333,
+    "stddev": 1.1547005383792515,
+    "normalisedMean": 0.21742882086062548,
+    "normalisedStddev": 0.8256280962991298
+  },
+  {
+    "counts": {
+      "One thumb up": 5,
+      "Indifferent": 3,
+      "Veto": 1
+    },
+    "scores": [
+      1,
+      0,
+      -3,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      -0.25435244341438684,
+      -1.0315507393184784,
+      0.2918020529495522,
+      0.7779410645825497,
+      0.03316376071476645,
+      -0.04395651360672998,
+      0.41920518066279144,
+      0.5761623158362987
+    ],
+    "proposal_id": 77,
+    "title": "CSS Art History 101: Decoding Layout Through The Ages",
+    "conference": "css",
+    "mean": 0.2222222222222222,
+    "stddev": 1.227262335243029,
+    "normalisedMean": 0.20765374564250633,
+    "normalisedStddev": 0.5918720045219124
+  },
+  {
+    "counts": {
+      "One thumb up": 5,
+      "One thumb down": 2,
+      "Indifferent": 2
+    },
+    "scores": [
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      0.42289924326729383,
+      0.2918020529495522,
+      -0.9881954063616173,
+      0.10132391877329436,
+      0.7039761933543609,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      0.5761623158362987
+    ],
+    "proposal_id": 495,
+    "title": "User Testing your CSS",
+    "conference": "css",
+    "mean": 0.3333333333333333,
+    "stddev": 0.816496580927726,
+    "normalisedMean": 0.20071219386361247,
+    "normalisedStddev": 0.582804056165144
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb up": 5,
+      "Indifferent": 2,
+      "One thumb down": 1
+    },
+    "scores": [
+      -3,
+      1,
+      1,
+      0,
+      -1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      0.42289924326729383,
+      0.7779410645825497,
+      -0.5007254163039652,
+      0.10132391877329436,
+      0.7039761933543609,
+      0.6984201606402642,
+      0.41920518066279144,
+      0.02147188754669436
+    ],
+    "proposal_id": 340,
+    "title": "Game Design Techniques for Front-End Developers",
+    "conference": "css",
+    "mean": 0.1111111111111111,
+    "stddev": 1.286204100310025,
+    "normalisedMean": 0.19203980116620134,
+    "normalisedStddev": 0.5489404340288028
+  },
+  {
+    "counts": {
+      "Two thumbs up": 2,
+      "One thumb down": 3,
+      "One thumb up": 2,
+      "Indifferent": 1,
+      "Veto": 1
+    },
+    "scores": [
+      3,
+      -1,
+      1,
+      -1,
+      3,
+      1,
+      0,
+      -3,
+      -1
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      -0.9316041300960676,
+      0.41920518066279144,
+      0.10132391877329436,
+      1.876856991456587,
+      0.6984201606402642,
+      -0.10512717088953372,
+      -1.9792735372040173,
+      -0.5332185407429101
+    ],
+    "proposal_id": 590,
+    "title": "Demystifying a Design Mystery: Colors & Math, for Developers!",
+    "conference": "css",
+    "mean": 0.2222222222222222,
+    "stddev": 1.872477727372524,
+    "normalisedMean": 0.18392927024204825,
+    "normalisedStddev": 1.2210947634582299
+  },
+  {
+    "counts": {
+      "One thumb down": 1,
+      "One thumb up": 2,
+      "Veto": 1,
+      "Two thumbs up": 1,
+      "Indifferent": 4
+    },
+    "scores": [
+      -1,
+      1,
+      -3,
+      3,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      0.42289924326729383,
+      -1.0315507393184784,
+      1.876856991456587,
+      -0.10512717088953372,
+      0.03316376071476645,
+      0.6984201606402642,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 319,
+    "title": "Post is the New Pre: Using Postprocessors to Revolutionize Your Workflow",
+    "conference": "css",
+    "mean": 0.1111111111111111,
+    "stddev": 1.5234788000891208,
+    "normalisedMean": 0.18335783853064672,
+    "normalisedStddev": 0.7527773187005775
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "Indifferent": 3,
+      "One thumb down": 2,
+      "One thumb up": 1,
+      "Two thumbs up": 2
+    },
+    "scores": [
+      -3,
+      0,
+      -1,
+      -1,
+      1,
+      0,
+      3,
+      0,
+      3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.25435244341438684,
+      -1.2932528855574823,
+      -0.9881954063616173,
+      0.7039761933543609,
+      -0.04395651360672998,
+      1.9737577256206429,
+      0.6677612478191808,
+      1.6855431724155074
+    ],
+    "proposal_id": 494,
+    "title": "Trying to stay nimble under the weight of legacy stylesheets",
+    "conference": "css",
+    "mean": 0.2222222222222222,
+    "stddev": 1.8121673811444545,
+    "normalisedMean": 0.1705696742491115,
+    "normalisedStddev": 1.1041042375435592
+  },
+  {
+    "counts": {
+      "Two thumbs up": 1,
+      "Indifferent": 3,
+      "One thumb up": 3,
+      "Veto": 1,
+      "One thumb down": 1
+    },
+    "scores": [
+      3,
+      0,
+      0,
+      0,
+      1,
+      1,
+      -3,
+      1,
+      -1
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      -0.25435244341438684,
+      -0.10512717088953372,
+      -0.5007254163039652,
+      0.7039761933543609,
+      0.6984201606402642,
+      -1.0315507393184784,
+      0.41920518066279144,
+      -0.5332185407429101
+    ],
+    "proposal_id": 375,
+    "title": "Help! My client is a WebPerf meetup!",
+    "conference": "css",
+    "mean": 0.2222222222222222,
+    "stddev": 1.547598697464902,
+    "normalisedMean": 0.16726753150735207,
+    "normalisedStddev": 0.8837513199563629
+  },
+  {
+    "counts": {
+      "Indifferent": 2,
+      "One thumb up": 4,
+      "One thumb down": 2,
+      "Abstain negative": 1
+    },
+    "scores": [
+      0,
+      1,
+      1,
+      -1,
+      0,
+      1,
+      -1,
+      1
+    ],
+    "normalisedScores": [
+      0.5963132687752775,
+      0.42289924326729383,
+      0.2918020529495522,
+      -0.9881954063616173,
+      0.6677612478191808,
+      0.7039761933543609,
+      -0.7863331878537243,
+      0.41920518066279144
+    ],
+    "proposal_id": 567,
+    "title": "Sassematics = mathematics in Sass",
+    "conference": "css",
+    "mean": 0.25,
+    "stddev": 0.82915619758885,
+    "normalisedMean": 0.16592857407663936,
+    "normalisedStddev": 0.6236379138656779
+  },
+  {
+    "counts": {
+      "One thumb up": 4,
+      "Indifferent": 3,
+      "One thumb down": 2
+    },
+    "scores": [
+      1,
+      1,
+      1,
+      0,
+      -1,
+      0,
+      1,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      0.42289924326729383,
+      0.2918020529495522,
+      0.6677612478191808,
+      -0.9881954063616173,
+      0.03316376071476645,
+      0.6984201606402642,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 130,
+    "title": "From Pages to Patterns",
+    "conference": "css",
+    "mean": 0.2222222222222222,
+    "stddev": 0.7856742013183862,
+    "normalisedMean": 0.14833671764962103,
+    "normalisedStddev": 0.6325304545233986
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "Indifferent": 2,
+      "One thumb down": 2,
+      "One thumb up": 3,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      -3,
+      0,
+      -1,
+      1,
+      3,
+      0,
+      1,
+      -1,
+      1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.25435244341438684,
+      -0.9881954063616173,
+      0.2918020529495522,
+      2.04560105863355,
+      -0.04395651360672998,
+      0.41920518066279144,
+      0.10132391877329436,
+      0.5761623158362987
+    ],
+    "proposal_id": 573,
+    "title": "Sisyphus and the style guide",
+    "conference": "css",
+    "mean": 0.1111111111111111,
+    "stddev": 1.5947444549341472,
+    "normalisedMean": 0.13682623793836457,
+    "normalisedStddev": 0.8499410164295434
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "One thumb down": 2,
+      "Two thumbs up": 2,
+      "Indifferent": 1,
+      "One thumb up": 2
+    },
+    "scores": [
+      -3,
+      -1,
+      3,
+      0,
+      -3,
+      3,
+      -1,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      1.876856991456587,
+      -0.10512717088953372,
+      -1.0315507393184784,
+      2.04560105863355,
+      -0.7863331878537243,
+      0.41920518066279144,
+      0.5761623158362987
+    ],
+    "proposal_id": 57,
+    "title": "Creativity in Programming for Fun and Profit",
+    "conference": "css",
+    "mean": 0,
+    "stddev": 2.1081851067789197,
+    "normalisedMean": 0.12745069960043906,
+    "normalisedStddev": 1.1288771071362054
+  },
+  {
+    "counts": {
+      "One thumb down": 2,
+      "Indifferent": 3,
+      "One thumb up": 3,
+      "Abstain positive": 1
+    },
+    "scores": [
+      -1,
+      0,
+      -1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.25435244341438684,
+      -1.2932528855574823,
+      0.7779410645825497,
+      0.03316376071476645,
+      0.6677612478191808,
+      0.41920518066279144,
+      0.5761623158362987
+    ],
+    "proposal_id": 506,
+    "title": "Components and CSS",
+    "conference": "css",
+    "mean": 0.125,
+    "stddev": 0.7806247497997998,
+    "normalisedMean": 0.1273482182272599,
+    "normalisedStddev": 0.6300638722096257
+  },
+  {
+    "counts": {
+      "Two thumbs up": 2,
+      "Indifferent": 4,
+      "One thumb down": 3
+    },
+    "scores": [
+      3,
+      0,
+      0,
+      -1,
+      -1,
+      0,
+      -1,
+      0,
+      3
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      -0.25435244341438684,
+      -0.10512717088953372,
+      -1.2932528855574823,
+      0.10132391877329436,
+      0.03316376071476645,
+      -0.7863331878537243,
+      -0.35807109181613433,
+      1.6855431724155074
+    ],
+    "proposal_id": 250,
+    "title": "Shedding Light on the Shadow DOM",
+    "conference": "css",
+    "mean": 0.3333333333333333,
+    "stddev": 1.4907119849998598,
+    "normalisedMean": 0.12574162577225925,
+    "normalisedStddev": 1.0355816240511562
+  },
+  {
+    "counts": {
+      "One thumb up": 5,
+      "One thumb down": 1,
+      "Indifferent": 2,
+      "Veto": 1
+    },
+    "scores": [
+      1,
+      -1,
+      0,
+      0,
+      1,
+      1,
+      -3,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      0.7039761933543609,
+      0.6984201606402642,
+      -1.0315507393184784,
+      0.41920518066279144,
+      0.5761623158362987
+    ],
+    "proposal_id": 75,
+    "title": "Jiro Dreams of Code: What Engineers Can Learn From Chefs",
+    "conference": "css",
+    "mean": 0.1111111111111111,
+    "stddev": 1.286204100310025,
+    "normalisedMean": 0.10324726958465157,
+    "normalisedStddev": 0.7302908210663772
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb down": 3,
+      "One thumb up": 3,
+      "Indifferent": 1,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      -3,
+      -1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      3,
+      -1
+    ],
+    "normalisedScores": [
+      -2.2861075034594287,
+      0.09215750517436108,
+      0.2918020529495522,
+      0.7779410645825497,
+      1.234198576865067,
+      0.03316376071476645,
+      -0.7863331878537243,
+      1.9737577256206429,
+      -0.5332185407429101
+    ],
+    "proposal_id": 46,
+    "title": "Design Fundamentals for Engineers: A set-up for success.",
+    "conference": "css",
+    "mean": 0,
+    "stddev": 1.632993161855452,
+    "normalisedMean": 0.08859571709454184,
+    "normalisedStddev": 1.163194159179096
+  },
+  {
+    "counts": {
+      "One thumb up": 2,
+      "Indifferent": 6,
+      "One thumb down": 1
+    },
+    "scores": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      -0.25435244341438684,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.03316376071476645,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      0.10132391877329436,
+      0.02147188754669436
+    ],
+    "proposal_id": 292,
+    "title": "Maintainable Pattern Libraries",
+    "conference": "css",
+    "mean": 0.1111111111111111,
+    "stddev": 0.5665577237325317,
+    "normalisedMean": 0.08741371473707955,
+    "normalisedStddev": 0.40071207376029067
+  },
+  {
+    "counts": {
+      "Indifferent": 8,
+      "One thumb up": 1
+    },
+    "scores": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      0.5963132687752775,
+      -0.10512717088953372,
+      0.42289924326729383,
+      -0.04395651360672998,
+      -0.5007254163039652,
+      0.6677612478191808,
+      0.03316376071476645,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 290,
+    "title": "CSS Layout Techniques: Replacing Floats with Flexbox & Grid",
+    "conference": "css",
+    "mean": 0.1111111111111111,
+    "stddev": 0.3142696805273545,
+    "normalisedMean": 0.08152546838964997,
+    "normalisedStddev": 0.38210039024836956
+  },
+  {
+    "counts": {
+      "Two thumbs up": 1,
+      "One thumb up": 1,
+      "Indifferent": 5,
+      "One thumb down": 2
+    },
+    "scores": [
+      3,
+      1,
+      0,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      0.42289924326729383,
+      -0.5007254163039652,
+      -0.9881954063616173,
+      -0.6376486719248281,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      0.02147188754669436,
+      0.6677612478191808
+    ],
+    "proposal_id": 555,
+    "title": "Taking the Pain and Anguish Out of Front-End Testing",
+    "conference": "css",
+    "mean": 0.2222222222222222,
+    "stddev": 1.1331154474650633,
+    "normalisedMean": 0.07692398202199119,
+    "normalisedStddev": 0.8681339289751432
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb down": 1,
+      "One thumb up": 1,
+      "Indifferent": 5,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      -3,
+      -1,
+      1,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      0.2918020529495522,
+      0.6677612478191808,
+      -0.10512717088953372,
+      2.04560105863355,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 386,
+    "title": "CSS in the Age of Reason",
+    "conference": "css",
+    "mean": 0,
+    "stddev": 1.4907119849998598,
+    "normalisedMean": 0.07463592427922666,
+    "normalisedStddev": 0.8507700313197483
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "Two thumbs up": 1,
+      "One thumb up": 2,
+      "Indifferent": 3,
+      "One thumb down": 2
+    },
+    "scores": [
+      -3,
+      3,
+      1,
+      0,
+      -1,
+      1,
+      -1,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      1.7774026166306551,
+      0.2918020529495522,
+      -0.10512717088953372,
+      -0.6376486719248281,
+      0.6984201606402642,
+      -1.1353473642950602,
+      0.02147188754669436,
+      0.6677612478191808
+    ],
+    "proposal_id": 106,
+    "title": "Using PostCSS in your development process",
+    "conference": "css",
+    "mean": 0,
+    "stddev": 1.5634719199411433,
+    "normalisedMean": 0.07362008182771701,
+    "normalisedStddev": 0.8612449309036052
+  },
+  {
+    "counts": {
+      "One thumb down": 2,
+      "Indifferent": 4,
+      "One thumb up": 2,
+      "Delay judgement": 1
+    },
+    "scores": [
+      -1,
+      0,
+      1,
+      0,
+      -1,
+      0,
+      0,
+      1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.25435244341438684,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.10132391877329436,
+      0.03316376071476645,
+      -0.04395651360672998,
+      0.41920518066279144
+    ],
+    "proposal_id": 9,
+    "title": "Healthy Minds in a Healthy Community",
+    "conference": "css",
+    "mean": 0,
+    "stddev": 0.7071067811865476,
+    "normalisedMean": 0.06677703629551437,
+    "normalisedStddev": 0.20085644155330443
+  },
+  {
+    "counts": {
+      "One thumb down": 3,
+      "One thumb up": 3,
+      "Indifferent": 3
+    },
+    "scores": [
+      -1,
+      1,
+      0,
+      -1,
+      0,
+      -1,
+      1,
+      1,
+      0
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      0.42289924326729383,
+      -0.5007254163039652,
+      0.10132391877329436,
+      -0.10512717088953372,
+      -0.6376486719248281,
+      0.6984201606402642,
+      0.41920518066279144,
+      0.02147188754669436
+    ],
+    "proposal_id": 356,
+    "title": "How to win maintainability and influence coworkers with Expressive CSS",
+    "conference": "css",
+    "mean": 0,
+    "stddev": 0.816496580927726,
+    "normalisedMean": 0.05688629299404138,
+    "normalisedStddev": 0.40836218930609214
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "Two thumbs up": 1,
+      "One thumb down": 3,
+      "One thumb up": 3,
+      "Indifferent": 1
+    },
+    "scores": [
+      -3,
+      3,
+      -1,
+      1,
+      -1,
+      0,
+      -1,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      1.7774026166306551,
+      -0.9881954063616173,
+      0.2918020529495522,
+      0.10132391877329436,
+      0.03316376071476645,
+      -0.7863331878537243,
+      0.41920518066279144,
+      0.5761623158362987
+    ],
+    "proposal_id": 411,
+    "title": "Large Scale UI Rebuild",
+    "conference": "css",
+    "mean": 0,
+    "stddev": 1.632993161855452,
+    "normalisedMean": 0.056486358813838344,
+    "normalisedStddev": 0.8279051694151444
+  },
+  {
+    "counts": {
+      "Indifferent": 5,
+      "One thumb down": 2,
+      "One thumb up": 2
+    },
+    "scores": [
+      0,
+      -1,
+      0,
+      0,
+      1,
+      -1,
+      1,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      -0.35807109181613433,
+      0.09215750517436108,
+      -0.10512717088953372,
+      -0.25435244341438684,
+      0.2918020529495522,
+      0.10132391877329436,
+      0.7039761933543609,
+      -0.04395651360672998,
+      0.02147188754669436
+    ],
+    "proposal_id": 327,
+    "title": "“CSS, you’re the one ❤️”",
+    "conference": "css",
+    "mean": 0,
+    "stddev": 0.6666666666666666,
+    "normalisedMean": 0.04991381534127535,
+    "normalisedStddev": 0.29503728048828076
+  },
+  {
+    "counts": {
+      "One thumb down": 5,
+      "Two thumbs up": 2,
+      "Delay judgement": 1,
+      "Indifferent": 2
+    },
+    "scores": [
+      -1,
+      3,
+      3,
+      0,
+      -1,
+      -1,
+      -1,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      -1.3964366475907393,
+      2.1087805595780265,
+      1.876856991456587,
+      -0.10512717088953372,
+      0.10132391877329436,
+      -0.6376486719248281,
+      -0.7863331878537243,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 337,
+    "title": "Web Performance in the Age of HTTP/2",
+    "conference": "css",
+    "mean": 0.1111111111111111,
+    "stddev": 1.594744454934147,
+    "normalisedMean": 0.030014017665559778,
+    "normalisedStddev": 1.1239931911097247
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "One thumb up": 5,
+      "Indifferent": 2
+    },
+    "scores": [
+      -3,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      -3,
+      1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      0.42289924326729383,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      0.7039761933543609,
+      0.6984201606402642,
+      0.41920518066279144,
+      -1.0315507393184784,
+      0.5761623158362987
+    ],
+    "proposal_id": 589,
+    "title": "What Physics Taught Me About Tech",
+    "conference": "css",
+    "mean": -0.1111111111111111,
+    "stddev": 1.594744454934147,
+    "normalisedMean": 0.029678416135728906,
+    "normalisedStddev": 0.6521075642558765
+  },
+  {
+    "counts": {
+      "Two thumbs up": 2,
+      "Veto": 2,
+      "Indifferent": 2,
+      "Delay judgement": 1,
+      "One thumb down": 1,
+      "One thumb up": 1
+    },
+    "scores": [
+      3,
+      -3,
+      -3,
+      3,
+      0,
+      -1,
+      1,
+      0
+    ],
+    "normalisedScores": [
+      2.1087805595780265,
+      -2.2861075034594287,
+      -1.0315507393184784,
+      1.876856991456587,
+      -0.10512717088953372,
+      -0.7863331878537243,
+      0.41920518066279144,
+      0.02147188754669436
+    ],
+    "proposal_id": 491,
+    "title": "Discrete CSS",
+    "conference": "css",
+    "mean": 0,
+    "stddev": 2.179449471770337,
+    "normalisedMean": 0.027149502215366755,
+    "normalisedStddev": 1.3720240944522497
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "Two thumbs up": 1,
+      "Indifferent": 4,
+      "One thumb down": 2,
+      "One thumb up": 1
+    },
+    "scores": [
+      -3,
+      3,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      1.7774026166306551,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      0.10132391877329436,
+      0.03316376071476645,
+      0.6984201606402642,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 391,
+    "title": "Building a Front-End Development Community at Work",
+    "conference": "css",
+    "mean": -0.1111111111111111,
+    "stddev": 1.5234788000891208,
+    "normalisedMean": 0.021890468330996157,
+    "normalisedStddev": 0.7577493866089653
+  },
+  {
+    "counts": {
+      "One thumb down": 2,
+      "Indifferent": 4,
+      "Veto": 1,
+      "Two thumbs up": 1,
+      "One thumb up": 1
+    },
+    "scores": [
+      -1,
+      -1,
+      0,
+      0,
+      -3,
+      0,
+      3,
+      0,
+      1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      -1.0315507393184784,
+      0.03316376071476645,
+      2.183173509134253,
+      -0.35807109181613433,
+      0.5761623158362987
+    ],
+    "proposal_id": 218,
+    "title": "Following through with animation",
+    "conference": "css",
+    "mean": -0.1111111111111111,
+    "stddev": 1.5234788000891208,
+    "normalisedMean": -0.004713495284944407,
+    "normalisedStddev": 0.9085750887459182
+  },
+  {
+    "counts": {
+      "One thumb down": 3,
+      "Indifferent": 4,
+      "One thumb up": 2
+    },
+    "scores": [
+      -1,
+      0,
+      1,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      -1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.25435244341438684,
+      0.41920518066279144,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      0.10132391877329436,
+      0.03316376071476645,
+      0.6984201606402642,
+      -0.5332185407429101
+    ],
+    "proposal_id": 409,
+    "title": "The Art of Play",
+    "conference": "css",
+    "mean": -0.1111111111111111,
+    "stddev": 0.7370277311900889,
+    "normalisedMean": -0.005461449487257575,
+    "normalisedStddev": 0.37916713948160247
+  },
+  {
+    "counts": {
+      "Indifferent": 4,
+      "One thumb down": 3,
+      "One thumb up": 2
+    },
+    "scores": [
+      0,
+      -1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      -1,
+      -1
+    ],
+    "normalisedScores": [
+      0.5963132687752775,
+      -0.9316041300960676,
+      -0.04395651360672998,
+      0.2918020529495522,
+      0.7779410645825497,
+      0.03316376071476645,
+      -0.35807109181613433,
+      0.10132391877329436,
+      -0.5332185407429101
+    ],
+    "proposal_id": 462,
+    "title": "Soft Skills for Nerdy Introverts",
+    "conference": "css",
+    "mean": -0.1111111111111111,
+    "stddev": 0.7370277311900889,
+    "normalisedMean": -0.007367356718489081,
+    "normalisedStddev": 0.5098108006254143
+  },
+  {
+    "counts": {
+      "One thumb down": 4,
+      "One thumb up": 3,
+      "Indifferent": 2
+    },
+    "scores": [
+      -1,
+      1,
+      -1,
+      1,
+      0,
+      1,
+      -1,
+      -1,
+      0
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      0.42289924326729383,
+      0.10132391877329436,
+      0.41920518066279144,
+      -0.5007254163039652,
+      0.7779410645825497,
+      -0.6376486719248281,
+      -0.7863331878537243,
+      0.02147188754669436
+    ],
+    "proposal_id": 152,
+    "title": "A class has a name, naming conventions for a happy codebase",
+    "conference": "css",
+    "mean": -0.1111111111111111,
+    "stddev": 0.8748897637790901,
+    "normalisedMean": -0.009967608452836979,
+    "normalisedStddev": 0.5004150624277163
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "Two thumbs up": 1,
+      "Indifferent": 4,
+      "One thumb down": 2,
+      "One thumb up": 1
+    },
+    "scores": [
+      -3,
+      3,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      0,
+      1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      1.7774026166306551,
+      -0.5007254163039652,
+      -0.04395651360672998,
+      -0.10512717088953372,
+      0.10132391877329436,
+      -0.6376486719248281,
+      -0.35807109181613433,
+      0.5761623158362987
+    ],
+    "proposal_id": 526,
+    "title": "Developer meet Designer",
+    "conference": "css",
+    "mean": -0.1111111111111111,
+    "stddev": 1.5234788000891208,
+    "normalisedMean": -0.01186600392537941,
+    "normalisedStddev": 0.755570510073017
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb up": 3,
+      "Abstain negative": 1,
+      "Indifferent": 2,
+      "One thumb down": 1,
+      "Abstain positive": 1
+    },
+    "scores": [
+      -3,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      0
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      0.42289924326729383,
+      0.2918020529495522,
+      0.7779410645825497,
+      0.03316376071476645,
+      -0.7863331878537243,
+      0.02147188754669436
+    ],
+    "proposal_id": 294,
+    "title": "Web Typography is Strange",
+    "conference": "css",
+    "mean": -0.14285714285714285,
+    "stddev": 1.355261854357877,
+    "normalisedMean": -0.02217274297433419,
+    "normalisedStddev": 0.5763136603429582
+  },
+  {
+    "counts": {
+      "Indifferent": 3,
+      "Veto": 1,
+      "One thumb up": 3,
+      "One thumb down": 2
+    },
+    "scores": [
+      0,
+      -3,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      -0.25435244341438684,
+      -0.9161540220274716,
+      0.6984201606402642,
+      0.2918020529495522,
+      0.7779410645825497,
+      -0.6376486719248281,
+      0.10132391877329436,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 359,
+    "title": "You inherited a large, complex, messy CSS codebase. And now?",
+    "conference": "css",
+    "mean": -0.2222222222222222,
+    "stddev": 1.227262335243029,
+    "normalisedMean": -0.030585238298940665,
+    "normalisedStddev": 0.5394734077744726
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "Delay judgement": 1,
+      "Indifferent": 4,
+      "One thumb up": 2,
+      "One thumb down": 1
+    },
+    "scores": [
+      -3,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.10512717088953372,
+      0.2918020529495522,
+      0.6677612478191808,
+      0.7039761933543609,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 278,
+    "title": "CSS Tricks for SEO and Accessibility",
+    "conference": "css",
+    "mean": -0.25,
+    "stddev": 1.1989578808281798,
+    "normalisedMean": -0.03662348061996074,
+    "normalisedStddev": 0.5339434399533507
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb down": 3,
+      "Two thumbs up": 1,
+      "One thumb up": 1,
+      "Indifferent": 2,
+      "Delay judgement": 1
+    },
+    "scores": [
+      -3,
+      -1,
+      3,
+      1,
+      0,
+      0,
+      -1,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      1.9737577256206429,
+      0.6984201606402642,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      0.10132391877329436,
+      -0.6376486719248281
+    ],
+    "proposal_id": 65,
+    "title": "You Don't Have Impostor Syndrome: Understanding the Learning Process",
+    "conference": "css",
+    "mean": -0.25,
+    "stddev": 1.6393596310755,
+    "normalisedMean": -0.0397197007759581,
+    "normalisedStddev": 0.9190180575213381
+  },
+  {
+    "counts": {
+      "One thumb down": 3,
+      "Two thumbs up": 1,
+      "Veto": 1,
+      "Indifferent": 3,
+      "One thumb up": 1
+    },
+    "scores": [
+      -1,
+      -1,
+      3,
+      -3,
+      -1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      1.876856991456587,
+      -1.0315507393184784,
+      -0.9881954063616173,
+      0.03316376071476645,
+      0.6984201606402642,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 330,
+    "title": "Creating Beautiful CSS Animations",
+    "conference": "css",
+    "mean": -0.2222222222222222,
+    "stddev": 1.547598697464902,
+    "normalisedMean": -0.06526122911773606,
+    "normalisedStddev": 0.8831027226409861
+  },
+  {
+    "counts": {
+      "Indifferent": 2,
+      "Veto": 1,
+      "One thumb up": 3,
+      "Delay judgement": 1,
+      "One thumb down": 2
+    },
+    "scores": [
+      0,
+      -3,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1
+    ],
+    "normalisedScores": [
+      -0.10512717088953372,
+      -0.9161540220274716,
+      0.42289924326729383,
+      0.41920518066279144,
+      0.2918020529495522,
+      0.6677612478191808,
+      -0.7863331878537243,
+      -0.5332185407429101
+    ],
+    "proposal_id": 519,
+    "title": "Studying design systems",
+    "conference": "css",
+    "mean": -0.25,
+    "stddev": 1.299038105676658,
+    "normalisedMean": -0.0673956496018527,
+    "normalisedStddev": 0.5703425172222916
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "Two thumbs up": 1,
+      "One thumb up": 1,
+      "Indifferent": 3,
+      "One thumb down": 3
+    },
+    "scores": [
+      -3,
+      3,
+      1,
+      0,
+      0,
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      1.7774026166306551,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.03316376071476645,
+      -0.7863331878537243,
+      0.10132391877329436,
+      -1.1353473642950602,
+      0.02147188754669436
+    ],
+    "proposal_id": 168,
+    "title": "The do's and don'ts of building an enterprise Design System",
+    "conference": "css",
+    "mean": -0.2222222222222222,
+    "stddev": 1.547598697464902,
+    "normalisedMean": -0.07975527871675858,
+    "normalisedStddev": 0.8135389908654801
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "One thumb up": 5,
+      "Indifferent": 1,
+      "One thumb down": 1
+    },
+    "scores": [
+      -3,
+      -3,
+      1,
+      0,
+      1,
+      -1,
+      1,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -2.2861075034594287,
+      0.2918020529495522,
+      -0.10512717088953372,
+      1.234198576865067,
+      -0.6376486719248281,
+      0.6984201606402642,
+      0.41920518066279144,
+      0.5761623158362987
+    ],
+    "proposal_id": 297,
+    "title": "CSS Skills Garden",
+    "conference": "css",
+    "mean": -0.2222222222222222,
+    "stddev": 1.6178021976178927,
+    "normalisedMean": -0.08058323126080985,
+    "normalisedStddev": 1.0015938204009274
+  },
+  {
+    "counts": {
+      "One thumb up": 1,
+      "Veto": 1,
+      "One thumb down": 3,
+      "Two thumbs up": 1,
+      "Indifferent": 2,
+      "Delay judgement": 1
+    },
+    "scores": [
+      1,
+      -3,
+      -1,
+      3,
+      -1,
+      0,
+      -1,
+      0
+    ],
+    "normalisedScores": [
+      0.42289924326729383,
+      -0.9161540220274716,
+      0.10132391877329436,
+      1.9737577256206429,
+      -0.9881954063616173,
+      -0.5007254163039652,
+      -0.7863331878537243,
+      0.02147188754669436
+    ],
+    "proposal_id": 353,
+    "title": "Constructing Modern Interfaces with SVG",
+    "conference": "css",
+    "mean": -0.25,
+    "stddev": 1.6393596310755,
+    "normalisedMean": -0.08399440716735664,
+    "normalisedStddev": 0.9160898292794999
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "One thumb down": 2,
+      "One thumb up": 3,
+      "Indifferent": 1,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      -3,
+      -1,
+      1,
+      -1,
+      -3,
+      1,
+      0,
+      1,
+      3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      0.2918020529495522,
+      -0.9881954063616173,
+      -1.0315507393184784,
+      0.7039761933543609,
+      -0.04395651360672998,
+      0.41920518066279144,
+      1.6855431724155074
+    ],
+    "proposal_id": 487,
+    "title": "The Web is Terrible at Maths",
+    "conference": "css",
+    "mean": -0.2222222222222222,
+    "stddev": 1.8724777273725242,
+    "normalisedMean": -0.09010380133646145,
+    "normalisedStddev": 0.8990263341013325
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "Two thumbs up": 1,
+      "Indifferent": 5,
+      "One thumb down": 2
+    },
+    "scores": [
+      -3,
+      3,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      1.7774026166306551,
+      -0.10512717088953372,
+      -0.5007254163039652,
+      0.6677612478191808,
+      -0.6376486719248281,
+      -0.7863331878537243,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 586,
+    "title": "All of the Layouts",
+    "conference": "css",
+    "mean": -0.2222222222222222,
+    "stddev": 1.4740554623801778,
+    "normalisedMean": -0.0930470898687919,
+    "normalisedStddev": 0.8015161198797018
+  },
+  {
+    "counts": {
+      "Indifferent": 3,
+      "One thumb down": 2,
+      "One thumb up": 3,
+      "Veto": 1
+    },
+    "scores": [
+      0,
+      -1,
+      1,
+      0,
+      -3,
+      -1,
+      0,
+      1,
+      1
+    ],
+    "normalisedScores": [
+      0.5963132687752775,
+      -0.9316041300960676,
+      0.2918020529495522,
+      -0.10512717088953372,
+      -1.0315507393184784,
+      -0.6376486719248281,
+      -0.04395651360672998,
+      0.41920518066279144,
+      0.5761623158362987
+    ],
+    "proposal_id": 268,
+    "title": "Writing CSS for Teams Struggling with Writing CSS",
+    "conference": "css",
+    "mean": -0.2222222222222222,
+    "stddev": 1.227262335243029,
+    "normalisedMean": -0.09626715640130201,
+    "normalisedStddev": 0.5978285308466902
+  },
+  {
+    "counts": {
+      "One thumb down": 3,
+      "Indifferent": 5,
+      "One thumb up": 1
+    },
+    "scores": [
+      -1,
+      0,
+      -1,
+      -1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      0.10132391877329436,
+      -0.10512717088953372,
+      0.09215750517436108,
+      -0.9316041300960676,
+      0.2918020529495522,
+      0.03316376071476645,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 423,
+    "title": "How I spent two years failing to finish a company CSS style guide",
+    "conference": "css",
+    "mean": -0.2222222222222222,
+    "stddev": 0.628539361054709,
+    "normalisedMean": -0.09987108680553303,
+    "normalisedStddev": 0.33743901682746197
+  },
+  {
+    "counts": {
+      "One thumb down": 3,
+      "Indifferent": 5,
+      "One thumb up": 1
+    },
+    "scores": [
+      -1,
+      -1,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      0.10132391877329436,
+      0.03316376071476645,
+      -0.04395651360672998,
+      0.41920518066279144,
+      0.02147188754669436
+    ],
+    "proposal_id": 296,
+    "title": "Roadmap to Refactoring",
+    "conference": "css",
+    "mean": -0.2222222222222222,
+    "stddev": 0.628539361054709,
+    "normalisedMean": -0.10156566422493207,
+    "normalisedStddev": 0.37040656946074335
+  },
+  {
+    "counts": {
+      "One thumb up": 3,
+      "Indifferent": 3,
+      "One thumb down": 2,
+      "Veto": 1
+    },
+    "scores": [
+      1,
+      0,
+      1,
+      0,
+      -1,
+      -3,
+      0,
+      1,
+      -1
+    ],
+    "normalisedScores": [
+      1.1004690323761936,
+      -0.25435244341438684,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.10132391877329436,
+      -1.9792735372040173,
+      -0.04395651360672998,
+      0.41920518066279144,
+      -0.5332185407429101
+    ],
+    "proposal_id": 507,
+    "title": "Functional Styling with CXS",
+    "conference": "css",
+    "mean": -0.2222222222222222,
+    "stddev": 1.227262335243029,
+    "normalisedMean": -0.1114586690106385,
+    "normalisedStddev": 0.7923171043873455
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb down": 2,
+      "One thumb up": 2,
+      "Indifferent": 4
+    },
+    "scores": [
+      -3,
+      -1,
+      1,
+      0,
+      -1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.10132391877329436,
+      0.03316376071476645,
+      -0.04395651360672998,
+      0.41920518066279144,
+      0.02147188754669436
+    ],
+    "proposal_id": 299,
+    "title": "The CSS Hivemind - Learning to write as one developer",
+    "conference": "css",
+    "mean": -0.3333333333333333,
+    "stddev": 1.1547005383792515,
+    "normalisedMean": -0.1255416706636338,
+    "normalisedStddev": 0.45351354014760886
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "Two thumbs up": 1,
+      "Indifferent": 4,
+      "One thumb down": 1,
+      "One thumb up": 1
+    },
+    "scores": [
+      -3,
+      3,
+      0,
+      0,
+      0,
+      -3,
+      0,
+      -1,
+      1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      1.7774026166306551,
+      -0.35807109181613433,
+      -0.10512717088953372,
+      -0.5007254163039652,
+      -1.0315507393184784,
+      0.03316376071476645,
+      -0.7863331878537243,
+      0.5761623158362987
+    ],
+    "proposal_id": 127,
+    "title": "Multi-dimensional web development",
+    "conference": "css",
+    "mean": -0.3333333333333333,
+    "stddev": 1.7638342073763935,
+    "normalisedMean": -0.14569254833639858,
+    "normalisedStddev": 0.8308585664256206
+  },
+  {
+    "counts": {
+      "One thumb down": 2,
+      "One thumb up": 2,
+      "Indifferent": 4,
+      "Veto": 1
+    },
+    "scores": [
+      -1,
+      1,
+      0,
+      1,
+      -3,
+      0,
+      0,
+      -1,
+      0
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      0.42289924326729383,
+      -0.5007254163039652,
+      0.7779410645825497,
+      -1.9792735372040173,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      0.10132391877329436,
+      0.02147188754669436
+    ],
+    "proposal_id": 497,
+    "title": "Visual Regression Testing for CSS",
+    "conference": "css",
+    "mean": -0.3333333333333333,
+    "stddev": 1.1547005383792515,
+    "normalisedMean": -0.1629147710651837,
+    "normalisedStddev": 0.7350572472007413
+  },
+  {
+    "counts": {
+      "One thumb down": 2,
+      "One thumb up": 2,
+      "Indifferent": 4,
+      "Veto": 1
+    },
+    "scores": [
+      -1,
+      -1,
+      1,
+      0,
+      -3,
+      0,
+      0,
+      0,
+      1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      0.2918020529495522,
+      -0.10512717088953372,
+      -1.0315507393184784,
+      0.03316376071476645,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      0.5761623158362987
+    ],
+    "proposal_id": 493,
+    "title": "Hammers and Nails",
+    "conference": "css",
+    "mean": -0.3333333333333333,
+    "stddev": 1.1547005383792515,
+    "normalisedMean": -0.16411377900577395,
+    "normalisedStddev": 0.5008311190063938
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "Delay judgement": 2,
+      "One thumb up": 2,
+      "Indifferent": 3
+    },
+    "scores": [
+      -3,
+      1,
+      0,
+      0,
+      0,
+      1,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.03316376071476645,
+      -0.04395651360672998,
+      0.41920518066279144,
+      -1.0315507393184784
+    ],
+    "proposal_id": 123,
+    "title": "User Un-Friendly: notes towards a queer web",
+    "conference": "css",
+    "mean": -0.5714285714285714,
+    "stddev": 1.590789817951435,
+    "normalisedMean": -0.19323106450215768,
+    "normalisedStddev": 0.5233180627520203
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb down": 4,
+      "One thumb up": 1,
+      "Indifferent": 2,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      -3,
+      -1,
+      1,
+      -1,
+      -1,
+      0,
+      -1,
+      0,
+      3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      0.2918020529495522,
+      -0.9881954063616173,
+      0.10132391877329436,
+      0.03316376071476645,
+      -0.7863331878537243,
+      -0.35807109181613433,
+      1.6855431724155074
+    ],
+    "proposal_id": 29,
+    "title": "Defying the algorithm",
+    "conference": "css",
+    "mean": -0.3333333333333333,
+    "stddev": 1.5634719199411433,
+    "normalisedMean": -0.20761388147798832,
+    "normalisedStddev": 0.8151297292278211
+  },
+  {
+    "counts": {
+      "Indifferent": 4,
+      "One thumb down": 4,
+      "One thumb up": 1
+    },
+    "scores": [
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      -1,
+      1,
+      -1,
+      0
+    ],
+    "normalisedScores": [
+      0.5963132687752775,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      -0.9881954063616173,
+      0.03316376071476645,
+      -0.7863331878537243,
+      0.41920518066279144,
+      0.10132391877329436,
+      0.02147188754669436
+    ],
+    "proposal_id": 220,
+    "title": "Transforming Web Sites into Video Games",
+    "conference": "css",
+    "mean": -0.3333333333333333,
+    "stddev": 0.6666666666666666,
+    "normalisedMean": -0.22615334712695004,
+    "normalisedStddev": 0.5574051115038773
+  },
+  {
+    "counts": {
+      "One thumb down": 2,
+      "Indifferent": 4,
+      "Veto": 2,
+      "Two thumbs up": 1
+    },
+    "scores": [
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      -3,
+      0,
+      3,
+      -3
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      -0.04395651360672998,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      -1.0315507393184784,
+      0.03316376071476645,
+      1.9737577256206429,
+      -1.642599397322119
+    ],
+    "proposal_id": 293,
+    "title": "Embrace Conflict. Improve Collaboration.",
+    "conference": "css",
+    "mean": -0.5555555555555556,
+    "stddev": 1.7069212773041353,
+    "normalisedMean": -0.23960937511412478,
+    "normalisedStddev": 0.9593067131593096
+  },
+  {
+    "counts": {
+      "One thumb down": 4,
+      "Indifferent": 5
+    },
+    "scores": [
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      -0.04395651360672998,
+      -0.10512717088953372,
+      0.10132391877329436,
+      0.03316376071476645,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 532,
+    "title": "Tentative: The Master Prototype: Scaling Your Prototyping Process",
+    "conference": "css",
+    "mean": -0.4444444444444444,
+    "stddev": 0.4969039949999533,
+    "normalisedMean": -0.24956196431032435,
+    "normalisedStddev": 0.3339098056703603
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb down": 4,
+      "One thumb up": 2,
+      "Indifferent": 2
+    },
+    "scores": [
+      -3,
+      -1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      0.2918020529495522,
+      0.7779410645825497,
+      0.03316376071476645,
+      -0.7863331878537243,
+      0.10132391877329436,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 522,
+    "title": "Short story about Sparkling Vector Guru. OMG, it is SVG!",
+    "conference": "css",
+    "mean": -0.5555555555555556,
+    "stddev": 1.1653431646335017,
+    "normalisedMean": -0.2579055750573495,
+    "normalisedStddev": 0.5618571177991913
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb down": 3,
+      "Indifferent": 4,
+      "One thumb up": 1
+    },
+    "scores": [
+      -3,
+      -1,
+      0,
+      1,
+      0,
+      0,
+      -1,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      -0.35807109181613433,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.03316376071476645,
+      -0.7863331878537243,
+      0.6677612478191808,
+      -0.5332185407429101
+    ],
+    "proposal_id": 564,
+    "title": "CSS preprocessors for the best of both worlds",
+    "conference": "css",
+    "mean": -0.5555555555555556,
+    "stddev": 1.065740338513938,
+    "normalisedMean": -0.2930867868824825,
+    "normalisedStddev": 0.527908614363053
+  },
+  {
+    "counts": {
+      "Delay judgement": 1,
+      "One thumb down": 3,
+      "Veto": 2,
+      "One thumb up": 3,
+      "Indifferent": 1
+    },
+    "scores": [
+      -1,
+      -3,
+      1,
+      1,
+      -3,
+      1,
+      -1,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9316041300960676,
+      -0.9161540220274716,
+      0.2918020529495522,
+      0.7779410645825497,
+      -1.0315507393184784,
+      0.7039761933543609,
+      -0.7863331878537243,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 354,
+    "title": "You Might Not Need JavaScript",
+    "conference": "css",
+    "mean": -0.6666666666666666,
+    "stddev": 1.4907119849998598,
+    "normalisedMean": -0.30924582232981374,
+    "normalisedStddev": 0.6772004944875284
+  },
+  {
+    "counts": {
+      "Indifferent": 3,
+      "Veto": 2,
+      "One thumb down": 2,
+      "One thumb up": 2
+    },
+    "scores": [
+      0,
+      -3,
+      0,
+      -1,
+      1,
+      -1,
+      1,
+      0,
+      -3
+    ],
+    "normalisedScores": [
+      -0.25435244341438684,
+      -0.9161540220274716,
+      -0.5007254163039652,
+      -0.7863331878537243,
+      0.7779410645825497,
+      0.10132391877329436,
+      0.7039761933543609,
+      -0.35807109181613433,
+      -1.642599397322119
+    ],
+    "proposal_id": 575,
+    "title": "Future-friendly patterns for web content and development",
+    "conference": "css",
+    "mean": -0.6666666666666666,
+    "stddev": 1.4142135623730951,
+    "normalisedMean": -0.3194438202252885,
+    "normalisedStddev": 0.7296931621538159
+  },
+  {
+    "counts": {
+      "One thumb down": 5,
+      "Indifferent": 4
+    },
+    "scores": [
+      -1,
+      -1,
+      0,
+      -1,
+      0,
+      0,
+      -1,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      -0.7863331878537243,
+      -0.10512717088953372,
+      0.03316376071476645,
+      0.10132391877329436,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 521,
+    "title": "Responding to the changing face of software design",
+    "conference": "css",
+    "mean": -0.5555555555555556,
+    "stddev": 0.4969039949999533,
+    "normalisedMean": -0.33204826144887933,
+    "normalisedStddev": 0.3633296126766592
+  },
+  {
+    "counts": {
+      "One thumb up": 1,
+      "Veto": 2,
+      "Indifferent": 5,
+      "One thumb down": 1
+    },
+    "scores": [
+      1,
+      -3,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      -3
+    ],
+    "normalisedScores": [
+      0.42289924326729383,
+      -0.9161540220274716,
+      -0.10512717088953372,
+      -0.5007254163039652,
+      0.10132391877329436,
+      0.03316376071476645,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      -1.642599397322119
+    ],
+    "proposal_id": 63,
+    "title": "Planning for the Best: a Rubric for Front End Success",
+    "conference": "css",
+    "mean": -0.6666666666666666,
+    "stddev": 1.3333333333333335,
+    "normalisedMean": -0.3343607432456221,
+    "normalisedStddev": 0.5881639888970369
+  },
+  {
+    "counts": {
+      "One thumb down": 5,
+      "One thumb up": 2,
+      "Indifferent": 1,
+      "Veto": 1
+    },
+    "scores": [
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      0,
+      1,
+      -3,
+      -1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      0.7779410645825497,
+      -1.2932528855574823,
+      -0.6376486719248281,
+      -0.04395651360672998,
+      0.41920518066279144,
+      -1.0315507393184784,
+      -0.5332185407429101
+    ],
+    "proposal_id": 368,
+    "title": "Bridging the Gap Between Developers and Designers",
+    "conference": "css",
+    "mean": -0.6666666666666666,
+    "stddev": 1.1547005383792515,
+    "normalisedMean": -0.35354752564742165,
+    "normalisedStddev": 0.6634750132016902
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "One thumb up": 1,
+      "Indifferent": 5,
+      "One thumb down": 1
+    },
+    "scores": [
+      -3,
+      -3,
+      1,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -2.2861075034594287,
+      0.2918020529495522,
+      -0.10512717088953372,
+      0.03316376071476645,
+      -0.04395651360672998,
+      0.10132391877329436,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 122,
+    "title": "Sassy Toolkits",
+    "conference": "css",
+    "mean": -0.6666666666666666,
+    "stddev": 1.3333333333333333,
+    "normalisedMean": -0.3624060757572213,
+    "normalisedStddev": 0.7543766294307495
+  },
+  {
+    "counts": {
+      "One thumb down": 5,
+      "One thumb up": 3,
+      "Veto": 1,
+      "Indifferent": 1
+    },
+    "scores": [
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      -3,
+      0,
+      -1,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9881954063616173,
+      0.09215750517436108,
+      0.42289924326729383,
+      1.234198576865067,
+      -1.3964366475907393,
+      0.2918020529495522,
+      -1.9792735372040173,
+      -0.04395651360672998,
+      -1.1353473642950602,
+      -0.5332185407429101
+    ],
+    "proposal_id": 241,
+    "title": "Weathering a Paint Storm",
+    "conference": "css",
+    "mean": -0.5,
+    "stddev": 1.2041594578792296,
+    "normalisedMean": -0.40353706315448,
+    "normalisedStddev": 0.9266426905458693
+  },
+  {
+    "counts": {
+      "One thumb up": 1,
+      "Veto": 2,
+      "One thumb down": 2,
+      "Indifferent": 4
+    },
+    "scores": [
+      1,
+      -3,
+      -1,
+      0,
+      0,
+      -1,
+      0,
+      -3,
+      0
+    ],
+    "normalisedScores": [
+      0.7779410645825497,
+      -0.9161540220274716,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      0.03316376071476645,
+      -0.7863331878537243,
+      -0.35807109181613433,
+      -1.0315507393184784,
+      0.02147188754669436
+    ],
+    "proposal_id": 223,
+    "title": "Slaying the Dragon: Refactoring CSS Using Sass",
+    "conference": "css",
+    "mean": -0.7777777777777778,
+    "stddev": 1.314684396244359,
+    "normalisedMean": -0.41020687495242564,
+    "normalisedStddev": 0.5638073115824355
+  },
+  {
+    "counts": {
+      "One thumb down": 4,
+      "Two thumbs up": 1,
+      "Indifferent": 2,
+      "Veto": 2
+    },
+    "scores": [
+      -1,
+      -1,
+      3,
+      0,
+      -1,
+      -3,
+      -3,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      1.876856991456587,
+      -0.10512717088953372,
+      -0.7863331878537243,
+      -1.0315507393184784,
+      -1.9792735372040173,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 587,
+    "title": "Keeping RWD Simple & Sassy",
+    "conference": "css",
+    "mean": -0.7777777777777778,
+    "stddev": 1.6850834320114556,
+    "normalisedMean": -0.4173515445877687,
+    "normalisedStddev": 0.9919038824208363
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "Indifferent": 4,
+      "One thumb up": 1,
+      "One thumb down": 2
+    },
+    "scores": [
+      -3,
+      -3,
+      0,
+      0,
+      1,
+      0,
+      -1,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -2.2861075034594287,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      0.7039761933543609,
+      -0.04395651360672998,
+      0.10132391877329436,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 33,
+    "title": "You are smArt",
+    "conference": "css",
+    "mean": -0.7777777777777778,
+    "stddev": 1.314684396244359,
+    "normalisedMean": -0.4375622385242799,
+    "normalisedStddev": 0.7834804877525918
+  },
+  {
+    "counts": {
+      "Veto": 1,
+      "One thumb down": 4,
+      "Indifferent": 4
+    },
+    "scores": [
+      -3,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      -0.7863331878537243,
+      -0.10512717088953372,
+      -0.5007254163039652,
+      0.03316376071476645,
+      -0.35807109181613433,
+      0.10132391877329436,
+      -0.5332185407429101
+    ],
+    "proposal_id": 307,
+    "title": "Block__Element--Magic: CSS Modularity for the masses.",
+    "conference": "css",
+    "mean": -0.7777777777777778,
+    "stddev": 0.9162456945817025,
+    "normalisedMean": -0.4440828755824163,
+    "normalisedStddev": 0.3706359221749337
+  },
+  {
+    "counts": {
+      "One thumb down": 1,
+      "Two thumbs up": 1,
+      "Indifferent": 4,
+      "Veto": 3
+    },
+    "scores": [
+      -1,
+      3,
+      0,
+      -3,
+      0,
+      0,
+      0,
+      -3,
+      -3
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      1.7774026166306551,
+      -0.5007254163039652,
+      -2.271086536347713,
+      -0.10512717088953372,
+      0.03316376071476645,
+      -0.35807109181613433,
+      -1.0315507393184784,
+      -1.642599397322119
+    ],
+    "proposal_id": 274,
+    "title": "Test Driven Hiring: Measuring creativity, aptitude, and potential with code",
+    "conference": "css",
+    "mean": -0.7777777777777778,
+    "stddev": 1.872477727372524,
+    "normalisedMean": -0.44515960771979557,
+    "normalisedStddev": 1.0901226001449347
+  },
+  {
+    "counts": {
+      "Veto": 3,
+      "Two thumbs up": 1,
+      "Indifferent": 4,
+      "One thumb down": 1
+    },
+    "scores": [
+      -3,
+      3,
+      0,
+      -3,
+      0,
+      -1,
+      -3,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      1.7774026166306551,
+      -0.5007254163039652,
+      -2.271086536347713,
+      -0.10512717088953372,
+      0.10132391877329436,
+      -1.9792735372040173,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 154,
+    "title": "CSS in JavaScript",
+    "conference": "css",
+    "mean": -0.7777777777777778,
+    "stddev": 1.8724777273725242,
+    "normalisedMean": -0.47002659462646573,
+    "normalisedStddev": 1.1297124116483024
+  },
+  {
+    "counts": {
+      "Indifferent": 5,
+      "Veto": 2,
+      "One thumb down": 2
+    },
+    "scores": [
+      0,
+      -3,
+      0,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      -3
+    ],
+    "normalisedScores": [
+      -0.10512717088953372,
+      -0.9161540220274716,
+      -0.25435244341438684,
+      -0.5007254163039652,
+      -0.6376486719248281,
+      -0.04395651360672998,
+      0.10132391877329436,
+      -0.35807109181613433,
+      -1.642599397322119
+    ],
+    "proposal_id": 468,
+    "title": "Alice in the IT-land.",
+    "conference": "css",
+    "mean": -0.8888888888888888,
+    "stddev": 1.1967032904743342,
+    "normalisedMean": -0.4841456453924305,
+    "normalisedStddev": 0.5056766858880881
+  },
+  {
+    "counts": {
+      "Indifferent": 5,
+      "Veto": 2,
+      "One thumb down": 2
+    },
+    "scores": [
+      0,
+      -3,
+      -1,
+      0,
+      0,
+      -3,
+      -1,
+      0,
+      0
+    ],
+    "normalisedScores": [
+      -0.10512717088953372,
+      -0.9161540220274716,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      -0.04395651360672998,
+      -1.0315507393184784,
+      -0.6376486719248281,
+      -0.35807109181613433,
+      0.02147188754669436
+    ],
+    "proposal_id": 22,
+    "title": "Learning and feeling overwhelmed: methods to organize your learning process in CSS",
+    "conference": "css",
+    "mean": -0.8888888888888888,
+    "stddev": 1.1967032904743342,
+    "normalisedMean": -0.500373985381835,
+    "normalisedStddev": 0.382526086996073
+  },
+  {
+    "counts": {
+      "One thumb down": 4,
+      "Veto": 2,
+      "One thumb up": 2,
+      "Indifferent": 1
+    },
+    "scores": [
+      -1,
+      -3,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      0,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9316041300960676,
+      -0.9161540220274716,
+      0.2918020529495522,
+      -0.7863331878537243,
+      -0.9881954063616173,
+      -0.6376486719248281,
+      0.41920518066279144,
+      0.02147188754669436,
+      -1.0315507393184784
+    ],
+    "proposal_id": 511,
+    "title": "Just-in-Time Style Guides",
+    "conference": "css",
+    "mean": -0.8888888888888888,
+    "stddev": 1.3698697784375504,
+    "normalisedMean": -0.5065563373803499,
+    "normalisedStddev": 0.5502237731094023
+  },
+  {
+    "counts": {
+      "Veto": 3,
+      "Indifferent": 4,
+      "One thumb down": 1,
+      "One thumb up": 1
+    },
+    "scores": [
+      -3,
+      0,
+      0,
+      0,
+      -3,
+      -1,
+      1,
+      0,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.25435244341438684,
+      -0.10512717088953372,
+      -0.5007254163039652,
+      -1.0315507393184784,
+      -0.6376486719248281,
+      0.6984201606402642,
+      -0.35807109181613433,
+      -1.642599397322119
+    ],
+    "proposal_id": 371,
+    "title": "CSS Architecture and Maintainabilty for Corporate Environtments",
+    "conference": "css",
+    "mean": -1,
+    "stddev": 1.4907119849998598,
+    "normalisedMean": -0.5275343102640725,
+    "normalisedStddev": 0.618781073280368
+  },
+  {
+    "counts": {
+      "Indifferent": 2,
+      "Veto": 2,
+      "One thumb down": 4,
+      "One thumb up": 1
+    },
+    "scores": [
+      0,
+      -3,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      0,
+      -3
+    ],
+    "normalisedScores": [
+      -0.10512717088953372,
+      -0.9161540220274716,
+      -0.9316041300960676,
+      0.10132391877329436,
+      0.2918020529495522,
+      -0.6376486719248281,
+      -0.7863331878537243,
+      -0.35807109181613433,
+      -1.642599397322119
+    ],
+    "proposal_id": 303,
+    "title": "Your Product is a Nuisance: How To Design Digital Products People Will Actually Use",
+    "conference": "css",
+    "mean": -1,
+    "stddev": 1.247219128924647,
+    "normalisedMean": -0.5538235222452257,
+    "normalisedStddev": 0.5680835323793757
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "Indifferent": 4,
+      "One thumb down": 3
+    },
+    "scores": [
+      -3,
+      0,
+      0,
+      0,
+      -3,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.25435244341438684,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      -1.0315507393184784,
+      0.03316376071476645,
+      -0.7863331878537243,
+      -1.1353473642950602,
+      -0.5332185407429101
+    ],
+    "proposal_id": 291,
+    "title": "Responsive Design Patterns for an Evolving Web",
+    "conference": "css",
+    "mean": -1,
+    "stddev": 1.1547005383792515,
+    "normalisedMean": -0.5810716804589737,
+    "normalisedStddev": 0.39212592033603494
+  },
+  {
+    "counts": {
+      "Veto": 3,
+      "Indifferent": 5,
+      "One thumb down": 1
+    },
+    "scores": [
+      -3,
+      0,
+      -3,
+      0,
+      0,
+      -3,
+      0,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.25435244341438684,
+      -1.0315507393184784,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      -1.9792735372040173,
+      -0.04395651360672998,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 121,
+    "title": "Code Patterns for Pattern-Making",
+    "conference": "css",
+    "mean": -1.1111111111111112,
+    "stddev": 1.3698697784375504,
+    "normalisedMean": -0.6358254972581807,
+    "normalisedStddev": 0.5699351047275217
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "One thumb down": 5,
+      "Indifferent": 1,
+      "One thumb up": 1
+    },
+    "scores": [
+      -3,
+      -1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      -0.10512717088953372,
+      -1.2932528855574823,
+      -0.7863331878537243,
+      -0.6376486719248281,
+      0.10132391877329436,
+      0.41920518066279144,
+      -1.642599397322119
+    ],
+    "proposal_id": 80,
+    "title": "Quartered: Being a share resource on an Agile team",
+    "conference": "css",
+    "mean": -1.1111111111111112,
+    "stddev": 1.1967032904743342,
+    "normalisedMean": -0.64357670735946,
+    "normalisedStddev": 0.6300007409405823
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "One thumb down": 5,
+      "One thumb up": 1,
+      "Indifferent": 1
+    },
+    "scores": [
+      -3,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      0,
+      -1,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      0.2918020529495522,
+      -0.9881954063616173,
+      -0.6376486719248281,
+      -0.7863331878537243,
+      -0.35807109181613433,
+      0.10132391877329436,
+      -1.642599397322119
+    ],
+    "proposal_id": 558,
+    "title": "Enhance THIS! Helping business owners and designers get real about progressive enhancement",
+    "conference": "css",
+    "mean": -1.1111111111111112,
+    "stddev": 1.1967032904743342,
+    "normalisedMean": -0.6519422150754572,
+    "normalisedStddev": 0.5582885668513249
+  },
+  {
+    "counts": {
+      "One thumb down": 2,
+      "One thumb up": 1,
+      "Indifferent": 3,
+      "Veto": 3
+    },
+    "scores": [
+      -1,
+      1,
+      0,
+      0,
+      -3,
+      -3,
+      -1,
+      0,
+      -3
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      0.42289924326729383,
+      -0.5007254163039652,
+      -0.10512717088953372,
+      -1.0315507393184784,
+      -1.9792735372040173,
+      -0.7863331878537243,
+      -0.35807109181613433,
+      -1.642599397322119
+    ],
+    "proposal_id": 120,
+    "title": "Open sourcing is easier than you think.",
+    "conference": "css",
+    "mean": -1.1111111111111112,
+    "stddev": 1.4487116456005886,
+    "normalisedMean": -0.6542915324740353,
+    "normalisedStddev": 0.7470330936567391
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "One thumb down": 4,
+      "Indifferent": 3
+    },
+    "scores": [
+      -3,
+      -1,
+      0,
+      -1,
+      -1,
+      0,
+      -1,
+      0,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      -0.9881954063616173,
+      0.10132391877329436,
+      0.03316376071476645,
+      -0.7863331878537243,
+      -0.35807109181613433,
+      -1.642599397322119
+    ],
+    "proposal_id": 236,
+    "title": "​ Overcoming the Challenges of Mentoring",
+    "conference": "css",
+    "mean": -1.1111111111111112,
+    "stddev": 1.0999438818457405,
+    "normalisedMean": -0.6654661080325598,
+    "normalisedStddev": 0.5169255505447603
+  },
+  {
+    "counts": {
+      "One thumb down": 4,
+      "Indifferent": 3,
+      "Veto": 2
+    },
+    "scores": [
+      -1,
+      0,
+      -3,
+      -1,
+      0,
+      -3,
+      -1,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.25435244341438684,
+      -1.0315507393184784,
+      -1.2932528855574823,
+      -0.10512717088953372,
+      -1.9792735372040173,
+      -0.7863331878537243,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 273,
+    "title": "Psychology for Front End Developers",
+    "conference": "css",
+    "mean": -1.1111111111111112,
+    "stddev": 1.0999438818457405,
+    "normalisedMean": -0.6943357879580341,
+    "normalisedStddev": 0.6173690329409763
+  },
+  {
+    "counts": {
+      "Veto": 3,
+      "One thumb down": 3,
+      "One thumb up": 2,
+      "Indifferent": 1
+    },
+    "scores": [
+      -3,
+      -1,
+      -3,
+      -1,
+      -3,
+      -1,
+      1,
+      1,
+      0
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      -2.754331877305784,
+      -1.2932528855574823,
+      -1.0315507393184784,
+      -0.6376486719248281,
+      0.6984201606402642,
+      0.41920518066279144,
+      0.02147188754669436
+    ],
+    "proposal_id": 552,
+    "title": "Dealing with Technical Debt",
+    "conference": "css",
+    "mean": -1.1111111111111112,
+    "stddev": 1.523478800089121,
+    "normalisedMean": -0.7139383441533736,
+    "normalisedStddev": 0.9725897521106949
+  },
+  {
+    "counts": {
+      "One thumb down": 3,
+      "Veto": 3,
+      "One thumb up": 1,
+      "Indifferent": 2
+    },
+    "scores": [
+      -1,
+      -3,
+      1,
+      -1,
+      -3,
+      0,
+      -1,
+      0,
+      -3
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -2.2861075034594287,
+      0.2918020529495522,
+      -0.9881954063616173,
+      -1.0315507393184784,
+      0.03316376071476645,
+      -0.7863331878537243,
+      -0.35807109181613433,
+      -1.642599397322119
+    ],
+    "proposal_id": 592,
+    "title": "My Life in Css",
+    "conference": "css",
+    "mean": -1.2222222222222223,
+    "stddev": 1.3966450099973928,
+    "normalisedMean": -0.7417482230325357,
+    "normalisedStddev": 0.8065433526308255
+  },
+  {
+    "counts": {
+      "Veto": 4,
+      "One thumb down": 2,
+      "One thumb up": 2,
+      "Indifferent": 1
+    },
+    "scores": [
+      -3,
+      -1,
+      1,
+      1,
+      0,
+      -3,
+      -3,
+      -1,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      0.41920518066279144,
+      0.2918020529495522,
+      -0.10512717088953372,
+      -1.0315507393184784,
+      -1.9792735372040173,
+      -0.7863331878537243,
+      -1.642599397322119
+    ],
+    "proposal_id": 270,
+    "title": "Variety - The Spice Of Life",
+    "conference": "css",
+    "mean": -1.3333333333333333,
+    "stddev": 1.632993161855452,
+    "normalisedMean": -0.742403883455452,
+    "normalisedStddev": 0.7686032917419219
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "One thumb down": 5,
+      "Indifferent": 2
+    },
+    "scores": [
+      -3,
+      -1,
+      0,
+      -3,
+      -1,
+      -1,
+      -1,
+      0,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      -2.271086536347713,
+      -0.9881954063616173,
+      0.10132391877329436,
+      -0.6376486719248281,
+      -0.35807109181613433,
+      -0.5332185407429101
+    ],
+    "proposal_id": 465,
+    "title": "Front-end Prototyping with Sass & JQuery",
+    "conference": "css",
+    "mean": -1.2222222222222223,
+    "stddev": 1.0304020550550783,
+    "normalisedMean": -0.7817088774274903,
+    "normalisedStddev": 0.6166301763460408
+  },
+  {
+    "counts": {
+      "One thumb down": 3,
+      "Veto": 3,
+      "Indifferent": 3
+    },
+    "scores": [
+      -1,
+      -3,
+      0,
+      -1,
+      -3,
+      0,
+      -1,
+      0,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9316041300960676,
+      -0.9161540220274716,
+      -0.5007254163039652,
+      -0.9881954063616173,
+      -1.9792735372040173,
+      -0.04395651360672998,
+      0.10132391877329436,
+      -0.35807109181613433,
+      -1.642599397322119
+    ],
+    "proposal_id": 326,
+    "title": "Front-end working practices that scale",
+    "conference": "css",
+    "mean": -1.3333333333333333,
+    "stddev": 1.247219128924647,
+    "normalisedMean": -0.806583955107203,
+    "normalisedStddev": 0.6528017901328824
+  },
+  {
+    "counts": {
+      "Veto": 2,
+      "One thumb down": 6,
+      "Indifferent": 1
+    },
+    "scores": [
+      -3,
+      -1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -3,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      -0.9881954063616173,
+      -0.6376486719248281,
+      -0.7863331878537243,
+      -1.1353473642950602,
+      -1.0315507393184784,
+      -0.5332185407429101
+    ],
+    "proposal_id": 288,
+    "title": "Quartered: Being a Shared Resource",
+    "conference": "css",
+    "mean": -1.3333333333333333,
+    "stddev": 0.9428090415820632,
+    "normalisedMean": -0.8289752754360137,
+    "normalisedStddev": 0.2139648917561914
+  },
+  {
+    "counts": {
+      "Indifferent": 3,
+      "One thumb down": 1,
+      "Delay judgement": 2,
+      "Veto": 3
+    },
+    "scores": [
+      0,
+      -1,
+      -3,
+      0,
+      0,
+      -3,
+      -3
+    ],
+    "normalisedScores": [
+      -0.10512717088953372,
+      0.09215750517436108,
+      -1.0315507393184784,
+      -0.35807109181613433,
+      -0.5007254163039652,
+      -2.271086536347713,
+      -1.642599397322119
+    ],
+    "proposal_id": 285,
+    "title": "Lizard people are here: Surfacing and overcoming unconscious bias",
+    "conference": "css",
+    "mean": -1.4285714285714286,
+    "stddev": 1.3997084244475304,
+    "normalisedMean": -0.8310004066890831,
+    "normalisedStddev": 0.8004121803506494
+  },
+  {
+    "counts": {
+      "Delay judgement": 1,
+      "Veto": 4,
+      "One thumb up": 1,
+      "Indifferent": 1,
+      "One thumb down": 2
+    },
+    "scores": [
+      -3,
+      1,
+      0,
+      -1,
+      -3,
+      -1,
+      -3,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      0.7779410645825497,
+      -0.5007254163039652,
+      -0.7863331878537243,
+      -1.9792735372040173,
+      -1.1353473642950602,
+      -1.0315507393184784,
+      -1.642599397322119
+    ],
+    "proposal_id": 559,
+    "title": "Web Components and CSS Architecture",
+    "conference": "css",
+    "mean": -1.625,
+    "stddev": 1.4947825928876748,
+    "normalisedMean": -0.9017553249677858,
+    "normalisedStddev": 0.7727420388291941
+  },
+  {
+    "counts": {
+      "Veto": 3,
+      "Indifferent": 2,
+      "One thumb down": 4
+    },
+    "scores": [
+      -3,
+      0,
+      0,
+      -1,
+      -3,
+      -1,
+      -3,
+      -1,
+      -1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.25435244341438684,
+      -0.5007254163039652,
+      -0.9881954063616173,
+      -1.0315507393184784,
+      -0.6376486719248281,
+      -2.271086536347713,
+      -1.1353473642950602,
+      -0.5332185407429101
+    ],
+    "proposal_id": 143,
+    "title": "Let's learn the components way code",
+    "conference": "css",
+    "mean": -1.4444444444444444,
+    "stddev": 1.1653431646335017,
+    "normalisedMean": -0.918697682304048,
+    "normalisedStddev": 0.5514730818430343
+  },
+  {
+    "counts": {
+      "Veto": 4,
+      "Delay judgement": 2,
+      "One thumb up": 2,
+      "One thumb down": 1
+    },
+    "scores": [
+      -3,
+      1,
+      -1,
+      -3,
+      -3,
+      -3,
+      1
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      0.2918020529495522,
+      -0.9881954063616173,
+      -1.0315507393184784,
+      -1.9792735372040173,
+      -2.271086536347713,
+      0.41920518066279144
+    ],
+    "proposal_id": 277,
+    "title": "Ladies Learning CSS: tips and tricks to teach beginners ",
+    "conference": "css",
+    "mean": -1.5714285714285714,
+    "stddev": 1.7612611437054218,
+    "normalisedMean": -0.9250361439495648,
+    "normalisedStddev": 0.9431225810332933
+  },
+  {
+    "counts": {
+      "One thumb down": 2,
+      "One thumb up": 1,
+      "Veto": 3,
+      "Delay judgement": 2,
+      "Indifferent": 1
+    },
+    "scores": [
+      -1,
+      -1,
+      1,
+      -3,
+      -3,
+      -3,
+      0
+    ],
+    "normalisedScores": [
+      0.09215750517436108,
+      -0.9316041300960676,
+      0.2918020529495522,
+      -1.0315507393184784,
+      -2.754331877305784,
+      -1.9792735372040173,
+      -0.35807109181613433
+    ],
+    "proposal_id": 563,
+    "title": "Never mind the blocks, here's the CSS Pistols",
+    "conference": "css",
+    "mean": -1.4285714285714286,
+    "stddev": 1.4982983545287878,
+    "normalisedMean": -0.9529816882309383,
+    "normalisedStddev": 1.021237951308884
+  },
+  {
+    "counts": {
+      "Veto": 5,
+      "One thumb up": 1,
+      "Indifferent": 1,
+      "One thumb down": 2
+    },
+    "scores": [
+      -3,
+      -3,
+      1,
+      0,
+      -3,
+      -3,
+      -1,
+      -1,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -2.2861075034594287,
+      0.2918020529495522,
+      -0.10512717088953372,
+      -1.0315507393184784,
+      -1.9792735372040173,
+      -0.7863331878537243,
+      -1.1353473642950602,
+      -1.642599397322119
+    ],
+    "proposal_id": 434,
+    "title": "Sass: The gateway drug for designers who WANT to code",
+    "conference": "css",
+    "mean": -1.7777777777777777,
+    "stddev": 1.4740554623801776,
+    "normalisedMean": -1.0656323188244758,
+    "normalisedStddev": 0.7837773693385909
+  },
+  {
+    "counts": {
+      "Veto": 5,
+      "One thumb down": 1,
+      "Indifferent": 3
+    },
+    "scores": [
+      -3,
+      -1,
+      0,
+      0,
+      -3,
+      -3,
+      0,
+      -3,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      -0.10512717088953372,
+      -0.5007254163039652,
+      -1.9792735372040173,
+      -2.271086536347713,
+      -0.35807109181613433,
+      -1.0315507393184784,
+      -1.642599397322119
+    ],
+    "proposal_id": 595,
+    "title": "How to Evolve",
+    "conference": "css",
+    "mean": -1.7777777777777777,
+    "stddev": 1.3966450099973926,
+    "normalisedMean": -1.0817991157028333,
+    "normalisedStddev": 0.6993807242112386
+  },
+  {
+    "counts": {
+      "Veto": 4,
+      "One thumb down": 4,
+      "Indifferent": 1
+    },
+    "scores": [
+      -3,
+      -1,
+      0,
+      -1,
+      -3,
+      -3,
+      -1,
+      -1,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      -0.5007254163039652,
+      -0.9881954063616173,
+      -1.0315507393184784,
+      -1.9792735372040173,
+      -0.7863331878537243,
+      -1.1353473642950602,
+      -1.642599397322119
+    ],
+    "proposal_id": 280,
+    "title": "CSS tricks to improve UX",
+    "conference": "css",
+    "mean": -1.7777777777777777,
+    "stddev": 1.1331154474650633,
+    "normalisedMean": -1.1013092445313912,
+    "normalisedStddev": 0.42237806196225874
+  },
+  {
+    "counts": {
+      "Veto": 5,
+      "Abstain negative": 1,
+      "Abstain positive": 1,
+      "Two thumbs up": 1,
+      "Delay judgement": 1
+    },
+    "scores": [
+      -3,
+      -3,
+      -3,
+      -3,
+      3,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -1.0315507393184784,
+      -2.754331877305784,
+      -1.9792735372040173,
+      2.183173509134253,
+      -2.6898999092529117
+    ],
+    "proposal_id": 5,
+    "title": "DEMO: CSSConf submission",
+    "conference": "css",
+    "mean": -2,
+    "stddev": 2.23606797749979,
+    "normalisedMean": -1.198006095995735,
+    "normalisedStddev": 1.673210457066059
+  },
+  {
+    "counts": {
+      "Delay judgement": 3,
+      "Indifferent": 1,
+      "Veto": 3,
+      "One thumb down": 2
+    },
+    "scores": [
+      0,
+      -3,
+      -1,
+      -3,
+      -1,
+      -3
+    ],
+    "normalisedScores": [
+      -0.5007254163039652,
+      -2.271086536347713,
+      -0.9881954063616173,
+      -1.0315507393184784,
+      -1.1353473642950602,
+      -1.642599397322119
+    ],
+    "proposal_id": 279,
+    "title": "Find your artistic streak with CSS",
+    "conference": "css",
+    "mean": -1.8333333333333333,
+    "stddev": 1.2133516482134197,
+    "normalisedMean": -1.2615841433248256,
+    "normalisedStddev": 0.5607682528784741
+  },
+  {
+    "counts": {
+      "One thumb up": 1,
+      "Veto": 6,
+      "Delay judgement": 1,
+      "Indifferent": 1
+    },
+    "scores": [
+      1,
+      -3,
+      -3,
+      0,
+      -3,
+      -3,
+      -3,
+      -3
+    ],
+    "normalisedScores": [
+      0.7779410645825497,
+      -0.9161540220274716,
+      -1.0315507393184784,
+      -0.5007254163039652,
+      -1.9792735372040173,
+      -2.271086536347713,
+      -2.6898999092529117,
+      -1.642599397322119
+    ],
+    "proposal_id": 71,
+    "title": "cosmetic style sheets",
+    "conference": "css",
+    "mean": -2.125,
+    "stddev": 1.5360257159305635,
+    "normalisedMean": -1.2816685616492658,
+    "normalisedStddev": 1.0384490261646937
+  },
+  {
+    "counts": {
+      "Veto": 5,
+      "One thumb down": 4
+    },
+    "scores": [
+      -3,
+      -1,
+      -3,
+      -1,
+      -3,
+      -1,
+      -3,
+      -1,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -0.9316041300960676,
+      -2.878307824064517,
+      -0.9881954063616173,
+      -2.271086536347713,
+      0.10132391877329436,
+      -1.9792735372040173,
+      -1.1353473642950602,
+      -1.642599397322119
+    ],
+    "proposal_id": 78,
+    "title": "Silos Full of Poison",
+    "conference": "css",
+    "mean": -2.111111111111111,
+    "stddev": 0.9938079899999066,
+    "normalisedMean": -1.40458269988281,
+    "normalisedStddev": 0.8356971963636037
+  },
+  {
+    "counts": {
+      "Veto": 6,
+      "Indifferent": 1,
+      "One thumb down": 2
+    },
+    "scores": [
+      -3,
+      -3,
+      0,
+      -1,
+      -3,
+      -3,
+      -1,
+      -3,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -2.2861075034594287,
+      -0.5007254163039652,
+      -0.9881954063616173,
+      -1.9792735372040173,
+      -2.271086536347713,
+      -1.1353473642950602,
+      -1.0315507393184784,
+      -1.642599397322119
+    ],
+    "proposal_id": 272,
+    "title": "Create CRM DASHBOARD with CSS",
+    "conference": "css",
+    "mean": -2.2222222222222223,
+    "stddev": 1.1331154474650633,
+    "normalisedMean": -1.4167822136266524,
+    "normalisedStddev": 0.6104676150876515
+  },
+  {
+    "counts": {
+      "Veto": 7,
+      "One thumb down": 2
+    },
+    "scores": [
+      -3,
+      -3,
+      -3,
+      -1,
+      -3,
+      -3,
+      -1,
+      -3,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -2.2861075034594287,
+      -2.878307824064517,
+      -0.9881954063616173,
+      -1.9792735372040173,
+      -2.271086536347713,
+      -1.1353473642950602,
+      -1.0315507393184784,
+      -1.642599397322119
+    ],
+    "proposal_id": 306,
+    "title": "Gulping All the Things.",
+    "conference": "css",
+    "mean": -2.5555555555555554,
+    "stddev": 0.8314794192830981,
+    "normalisedMean": -1.680958036711158,
+    "normalisedStddev": 0.6685667627395631
+  },
+  {
+    "counts": {
+      "Veto": 6,
+      "Abstain negative": 1,
+      "Abstain positive": 1,
+      "Delay judgement": 1
+    },
+    "scores": [
+      -3,
+      -3,
+      -3,
+      -3,
+      -3,
+      -3
+    ],
+    "normalisedScores": [
+      -0.9161540220274716,
+      -2.754331877305784,
+      -1.0315507393184784,
+      -1.9792735372040173,
+      -2.271086536347713,
+      -2.6898999092529117
+    ],
+    "proposal_id": 115,
+    "title": "test",
+    "conference": "css",
+    "mean": -3,
+    "stddev": 0,
+    "normalisedMean": -1.9403827702427294,
+    "normalisedStddev": 0.7314582184848408
+  }
+]
