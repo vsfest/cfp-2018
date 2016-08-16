@@ -22,12 +22,13 @@ class RoundsController < ApplicationController
           name: proposal.submission["name"],
           email: proposal.submission["email"],
           ranking: proposal.round1_stats["ranking"],
-          total_score: proposal.round1_stats["normalisedMean"]
+          total_score: proposal.round1_stats["normalisedMean"],
+          votes: Hash[*proposal.votes.map { |v| [User.find(v.user_id).name, v.vote] }.flatten]
         }
       }.sort_by { |proposal| proposal[:ranking] }
     }
-    css = do_stuff[Proposal.where(conference: 'css'), 50]
-    js = do_stuff[Proposal.where(conference: 'js'), 75]
+    css = do_stuff[Proposal.includes(:votes).where(conference: 'css'), 60]
+    js = do_stuff[Proposal.includes(:votes).where(conference: 'js'), 100]
 
     render json: {
       css_rejections: css,

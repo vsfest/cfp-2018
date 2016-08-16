@@ -19,11 +19,10 @@ class User
     new(9, 'jed',     '$2a$04$uhu7qi1rSPcuyCNzd30yTuVNItYpGOx/mq9O6ctLs9r7RKUYd0zLu'),
     new(10,'kriesse', '$2a$04$ltFT3vhfY91f/RcEy9h0l.Y0wep8zIAXKE8z9s4qIL.gnsgD3FRCe')
   ]
+  USERS_BY_ID = USERS.index_by(&:id)
 
   def self.find(id)
-    USERS.find { |user|
-      user.id == id
-    }
+    USERS_BY_ID[id]
   end
 
   def self.authenticate(username, password)
