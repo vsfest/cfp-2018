@@ -23,7 +23,8 @@ class RoundsController < ApplicationController
           email: proposal.submission["email"],
           ranking: proposal.round1_stats["ranking"],
           total_score: proposal.round1_stats["normalisedMean"],
-          votes: Hash[*proposal.votes.map { |v| [User.find(v.user_id).name, v.vote] }.flatten]
+          votes: proposal.vote_summary,
+          full_submission: request.original_url.sub(/[^\/]+$/,"proposals/#{proposal.sekret}?unredacted=true")
         }
       }.sort_by { |proposal| proposal[:ranking] }
     }

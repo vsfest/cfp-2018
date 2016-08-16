@@ -17,4 +17,11 @@ class Proposal < ApplicationRecord
     end
     safe
   end
+
+  def vote_summary
+    Hash[*self.votes.map { |v| [
+      User.find(v.user_id).name,
+      if v.comments.length > 0 then "#{v.vote} — #{v.comments}" else v.vote end
+    ] }.flatten]
+  end
 end

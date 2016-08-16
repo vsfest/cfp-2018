@@ -16,8 +16,10 @@ class ProposalsController < ApplicationController
 
   # GET /proposals/magic-hash
   def show
-    if params[:unredacted] == 'true'
-      render json: @proposal
+    if !@proposal
+      render :not_found
+    elsif params[:unredacted] == 'true'
+      render json: @proposal.attributes.merge({votes: @proposal.vote_summary})
     else
       render json: @proposal.redacted(request.original_url)
     end
@@ -51,7 +53,8 @@ class ProposalsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_proposal
-      @proposal = Proposal.where(sekret: params[:id]).order("created_at desc").first
+      @proposal = Proposal.where(sekret: params[:id])
+        .order("created_at desc").first
     end
 
     # Only allow a trusted parameter "white list" through.
