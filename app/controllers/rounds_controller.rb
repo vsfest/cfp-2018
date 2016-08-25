@@ -83,6 +83,7 @@ class RoundsController < ApplicationController
       michaela.lehr@geildanke.com
       rumyra@gmail.com
       post@schoenaberselten.com
+      me@zachstronaut.com
       no@no.com
       me@karolinaszczur.com
       glenmaddern@gmail.com
