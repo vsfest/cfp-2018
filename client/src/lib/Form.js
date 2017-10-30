@@ -1,4 +1,3 @@
-import React from 'react'
 import styled, { css } from 'styled-components'
 
 import { container } from '../styles/mixins'
@@ -12,8 +11,5 @@ export default styled.form`
       transition: opacity ease-out 2s;
       pointer-events: none;
     }
-  ` }
-  
-  ${ props => props.submitted && css`
   ` }
 `

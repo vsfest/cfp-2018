@@ -10,7 +10,7 @@ const store = observable({
 })
 
 loadExistingData().then(action(existing => {
-  //store.loading = false
+  store.loading = false
   store.existing = existing
 }))
 

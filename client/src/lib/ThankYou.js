@@ -1,17 +1,20 @@
 import React from 'react'
-import Form from './Form'
+import Header from './Header'
+import InertMessage from './InertMessage'
+import Para from './Para'
+import Link from './Link'
 
 export default ({
   url,
 }) => (
-  <Form submitted>
-    <h1 className="Header">
+  <InertMessage>
+    <Header>
       You're Awesome 😍
-    </h1>
-    <p className="Intro">
+    </Header>
+    <Para mb1>
       You can come back and edit your submission any time at
       <br/>
-      <a target="_blank" href={ url } className="Link">{ url }</a>
-    </p>
-  </Form>
+      <Link external href={ url }>{ url }</Link>
+    </Para>
+  </InertMessage>
 )

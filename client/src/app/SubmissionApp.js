@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components'
 import { observer } from 'mobx-react'
 
 import store from '../stores/store'
@@ -12,18 +12,20 @@ const Container = styled.div`
   padding: 1rem;
   min-height: 100vh;
 
-  background: ${ props => primary[props.conference] };
+  background: ${ props => primary[props.theme.conference] };
 `
 
 const SubmissionApp = () => (
-  <Container conference={ store.conference.id }>
-    { store.loading
-      ? <InertMessage>Loading...</InertMessage>
-      : store.submission_complete
-        ? <ThankYou url={ store.submission.url }/>
-        : <SubmissionForm/>
-    }
-  </Container>
+  <ThemeProvider theme={ { conference: store.conference.id } }>
+    <Container>
+      { store.loading
+        ? <InertMessage>Loading...</InertMessage>
+        : store.submission_complete
+          ? <ThankYou url={ store.submission }/>
+          : <SubmissionForm/>
+      }
+    </Container>
+  </ThemeProvider>
 )
 
 export default observer(SubmissionApp)
