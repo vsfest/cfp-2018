@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components'
 
-export default styled.a`
+export default styled.a.attrs({
+  target: props => props.external && "_blank",
+})`
   text-decoration: none;
   &:hover {
     border: 0;
