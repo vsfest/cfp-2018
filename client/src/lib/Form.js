@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 
 import { container } from '../styles/mixins'
 
-export default styled.form`
+const Form = styled.form`
   ${ container }
   
   ${ props => props.inProgress && css`
@@ -13,3 +13,12 @@ export default styled.form`
     }
   ` }
 `
+
+Form.Buttons = styled.div`
+  padding-top: 1rem;
+  > *+* {
+    margin-top: 1rem;
+  }
+`
+
+export default Form

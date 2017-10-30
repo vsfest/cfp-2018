@@ -9,6 +9,9 @@ import RadioButton from '../lib/RadioButton'
 import Form from '../lib/Form'
 import Header from '../lib/Header'
 import Para from '../lib/Para'
+import Field from '../lib/Field'
+import Button from '../lib/Button'
+import Link from '../lib/Link'
 
 export default class App extends Component {
   state = {
@@ -32,7 +35,7 @@ export default class App extends Component {
     const blogPostUrl = '/2016/07/01/cfp.html'
 
     return (
-      <Form onSubmit={ this.onSubmit.bind(this) } className={ "Form" + (inProgress ? ' -in-progress' : '') }>
+      <Form onSubmit={ this.onSubmit.bind(this) } inProgress={ inProgress }>
         <Header>
           { store.conference.title } call for proposals
         </Header>
@@ -46,20 +49,20 @@ export default class App extends Component {
         }
         <hr/>
         <TextField name="title" label="Title" form={ submission }/>
-        <div className="Field">
-          <div className="Field_Label">
+        <Field className="Field">
+          <Field.Label className="Field_Label">
             Talk Description
-          </div>
-          <div className="Field_Note">
+          </Field.Label>
+          <Field.Note className="Field_Note">
             <strong>NOTE</strong> please replace anything personally-identifiable in your talk submission with a
             string like COMPANY_A, PROJECT_B, PERSON_C, or OTHER_D.
             <br/>
             Confused about why? See the
-            a <a target="_blank" href={ blogPostUrl + "#anonymised-description-field" } className="Link">relevant section</a> of
+            a <Link external href={ blogPostUrl + "#anonymised-description-field" }>relevant section</Link> of
             the CFP blog post.
-          </div>
+          </Field.Note>
           <SanitisingDescription name="description" label="Description" form={ submission }/>
-        </div>
+        </Field>
         <RadioButton name="newness" label="Have you given this talk before?" options={ newnessOptions } form={ submission }/>
         <TextField name="gender" label="Gender" form={ submission }>
           Feel free to put "Prefer not to say".
@@ -75,12 +78,12 @@ export default class App extends Component {
         <TextField name="twitter" label="Twitter Handle or Website" form={ submission } required={ false }/>
         <TextField type="email" name="email" label="Email Address" form={ submission }/>
         <TextField type="text" name="anythingElse" label="Anything else you need to tell us?" form={ submission } required={ false }/>
-        {/*{ submission.example ? null :*/}
-          <div className="Form_Buttons">
-            <div className="Intro"><p>Once you're happy with your submission, send it to us. You will receive a link to access your proposals afterwards.</p></div>
-            <button type="submit" className="Button">{ submission.inProgress ? 'Saving...' : submission.sekret ? 'Save' : 'Submit' }</button>
-          </div>
-        {/*}*/}
+        { /*{ submission.example ? null :*/ }
+          <Form.Buttons>
+          <Para>Once you're happy with your submission, send it to us. You will receive a link to access your proposals afterwards.</Para>
+          <Button type="submit">{ submission.inProgress ? 'Saving...' : submission.sekret ? 'Save' : 'Submit' }</Button>
+          </Form.Buttons>
+        { /*}*/ }
       </Form>
     )
   }

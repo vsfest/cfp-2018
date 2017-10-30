@@ -1,33 +1,4 @@
-.Field {
-  padding: 1rem 0
-}
-.Field > *+* {
-  margin-top: 1rem;
-}
 
-.Field_Label {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.Field_Note {
-  font-size: 0.9rem;
-  color: hsl(0,0%,40%);
-  line-height: 1.4;
-}
-.Field_Note strong {
-  font-weight: 700;
-  color: black;
-}
-
-.Field_Text {
-  font-family: inherit;
-  font-size: 1em;
-  line-height: 1.6em;
-  padding: 0.1em 0.3em;
-  width: 100%;
-  margin: 1rem 0 0;
-}
 .Description_Container {
 }
 
@@ -151,28 +122,4 @@ label {
 label span {
   display: inline-block;
   line-height: 1.25;
-}
-.Button {
-  font-size: 1rem;
-  padding: 1rem;
-  background: none;
-  border: 2px solid;
-  min-width: 10rem;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.Button:hover {
-  color: #000;
-  border-color: #000;
-}
-
-main.css .Button {
-  color: hsl(12, 86%, 48%);
-  border-color: hsl(12, 86%, 48%);
-}
-
-main.js .Button {
-  color: hsl(233, 71%, 40%);
-  border-color: hsl(233, 71%, 40%);
 }
