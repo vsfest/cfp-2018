@@ -16,6 +16,7 @@ export default {
     },
     newness: "Yes",
     gender: "Not saying",
+    name: "Speaker",
     location: "Central and South America",
     techExperience: "Mid level",
     speakingExperience: "A little",

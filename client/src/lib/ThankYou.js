@@ -11,7 +11,7 @@ export default ({
     <Header>
       You're Awesome 😍
     </Header>
-    <Para mb1>
+    <Para>
       You can come back and edit your submission any time at
       <br/>
       <Link external href={ url }>{ url }</Link>

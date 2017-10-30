@@ -7,6 +7,8 @@ import TextField from '../lib/TextField'
 import SanitisingDescription from '../lib/SanitisingDescription'
 import RadioButton from '../lib/RadioButton'
 import Form from '../lib/Form'
+import Header from '../lib/Header'
+import Para from '../lib/Para'
 
 export default class App extends Component {
   state = {
@@ -31,16 +33,16 @@ export default class App extends Component {
 
     return (
       <Form onSubmit={ this.onSubmit.bind(this) } className={ "Form" + (inProgress ? ' -in-progress' : '') }>
-        <h1 className="Header">
+        <Header>
           { store.conference.title } call for proposals
-        </h1>
+        </Header>
         { submission.example
-          ? <p className="Intro">This is an example proposal that was accepted in a previous year.</p>
+          ? <Para>This is an example proposal that was accepted in a previous year.</Para>
           :
-          <p className="Intro">
+          <Para>
             This year we're doing things a little differently, you should have
             a <a target="_blank" href={ blogPostUrl } className="Link">read about why</a>. <strong>Submissions are open until July 31st.</strong>
-          </p>
+          </Para>
         }
         <hr/>
         <TextField name="title" label="Title" form={ submission }/>
@@ -73,12 +75,12 @@ export default class App extends Component {
         <TextField name="twitter" label="Twitter Handle or Website" form={ submission } required={ false }/>
         <TextField type="email" name="email" label="Email Address" form={ submission }/>
         <TextField type="text" name="anythingElse" label="Anything else you need to tell us?" form={ submission } required={ false }/>
-        { submission.example ? null :
+        {/*{ submission.example ? null :*/}
           <div className="Form_Buttons">
             <div className="Intro"><p>Once you're happy with your submission, send it to us. You will receive a link to access your proposals afterwards.</p></div>
             <button type="submit" className="Button">{ submission.inProgress ? 'Saving...' : submission.sekret ? 'Save' : 'Submit' }</button>
           </div>
-        }
+        {/*}*/}
       </Form>
     )
   }

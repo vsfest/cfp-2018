@@ -1,6 +1,6 @@
 class ProposalsController < ApplicationController
-  before_action :set_proposal, only: [:show]
-  before_action :check_authentication, except: [:show]
+  before_action :set_proposal, only: [:show, :update]
+  before_action :check_authentication, except: [:show, :create, :update]
 
   # GET /proposals
   def index
@@ -26,29 +26,29 @@ class ProposalsController < ApplicationController
   end
 
   # POST /proposals
-  # def create
-  #   @proposal = Proposal.new(proposal_params)
-  #
-  #   if @proposal.save
-  #     render json: @proposal, status: :created, location: @proposal
-  #   else
-  #     render json: @proposal.errors, status: :unprocessable_entity
-  #   end
-  # end
-  #
-  # # PATCH/PUT /proposals/1
-  # def update
-  #   if @proposal.update(proposal_params)
-  #     render json: @proposal
-  #   else
-  #     render json: @proposal.errors, status: :unprocessable_entity
-  #   end
-  # end
-  #
-  # # DELETE /proposals/1
-  # def destroy
-  #   @proposal.destroy
-  # end
+  def create
+    @proposal = Proposal.new(proposal_params)
+
+    if @proposal.save
+      render json: @proposal, status: :created, location: @proposal
+    else
+      render json: @proposal.errors, status: :unprocessable_entity
+    end
+  end
+
+  # PATCH/PUT /proposals/1
+  def update
+    if @proposal.update(proposal_params)
+      render json: @proposal
+    else
+      render json: @proposal.errors, status: :unprocessable_entity
+    end
+  end
+
+  # DELETE /proposals/1
+  def destroy
+    @proposal.destroy
+  end
 
   private
     # Use callbacks to share common setup or constraints between actions.
