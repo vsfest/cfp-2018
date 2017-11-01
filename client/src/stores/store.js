@@ -7,6 +7,7 @@ const store = observable({
   conference: loadConference(),
   loading: true,
   submission_complete: false,
+  submission_url: null,
   existing: null
 })
 

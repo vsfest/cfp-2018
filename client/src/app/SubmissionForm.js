@@ -12,6 +12,7 @@ import Para from '../lib/Para'
 import Field from '../lib/Field'
 import Button from '../lib/Button'
 import Link from '../lib/Link'
+import submit from '../actions/submit'
 
 export default class App extends Component {
   state = {
@@ -23,10 +24,7 @@ export default class App extends Component {
   onSubmit(e) {
     e.preventDefault()
     this.setState({ inProgress: true })
-    this.state.submission.submit()
-      .then(response => this.setState({
-        submitted: `${window.location.href.replace(/\?\w+$/, '')}?${response.sekret}`,
-      }))
+    submit(this.state.submission)
   }
 
   render() {
@@ -40,7 +38,10 @@ export default class App extends Component {
           { store.conference.title } call for proposals
         </Header>
         { submission.example
-          ? <Para>This is an example proposal that was accepted in a previous year.</Para>
+          ?
+          <Para>
+            This is an example proposal that was accepted in a previous year.
+          </Para>
           :
           <Para>
             This year we're doing things a little differently, you should have

@@ -12,7 +12,6 @@ export default class TextArea extends Component {
   render() {
     const { name, label, form, children, type = 'text', required = true } = this.props
     const value = form.data[name]
-    console.log(form.data[name])
     return <Field>
       <Field.Label>{ label }</Field.Label>
       { children ? <Field.Note>{ children }</Field.Note> : null }
