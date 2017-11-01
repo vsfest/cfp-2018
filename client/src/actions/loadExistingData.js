@@ -4,6 +4,7 @@ const lookup = window.location.search.match(/^\?(example(\d+)|([0-9a-f]{24}))$/)
 
 export default async () => {
   if (lookup) {
+    //eslint-disable-next-line no-unused-vars
     const [_, __, exampleId, existingId] = lookup
     if (exampleId) {
       return {
@@ -24,13 +25,3 @@ export default async () => {
     }
   }
 }
-/* Delay visual feedback for invalid form items
- until initial submit or blur event */
-Array.from(document.querySelectorAll('.Form input')).forEach(i => {
-  i.addEventListener('invalid', () => {
-    i.dataset.touched = true
-  })
-  i.addEventListener('blur', () => {
-    if (i.value !== '') i.dataset.touched = true
-  })
-})

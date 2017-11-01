@@ -9,7 +9,8 @@ export default ({
 }) => (
   <InertMessage>
     <Header>
-      You're Awesome 😍
+      You're Awesome
+      <span role="img" aria-label="We love you">😍</span>
     </Header>
     <Para>
       You can come back and edit your submission any time at

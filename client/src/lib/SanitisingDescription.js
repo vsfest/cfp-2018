@@ -42,7 +42,7 @@ export default class SanitisingDescription extends Component {
       const { text, redactions, context } = props.form.data[props.name]
       const identifiers = parser.extractIdentifiers(text, identifierPrefixes)
       let identifierDetails = {}
-      identifiers.map(identifier => {
+      identifiers.forEach(identifier => {
         identifierDetails[identifier.full] = {
           context: context[identifier.full],
           redacted: redactions[identifier.full],
@@ -68,7 +68,7 @@ export default class SanitisingDescription extends Component {
     this.setFormDetails = (myProps, details, identifiers) => {
       let context = {}
       let redactions = {}
-      identifiers.map(identifier => {
+      identifiers.forEach(identifier => {
         context[identifier.full] = (details[identifier.full] || {}).context || ''
         redactions[identifier.full] = (details[identifier.full] || {}).redacted || ''
       })
@@ -84,10 +84,10 @@ export default class SanitisingDescription extends Component {
     const identifiersChanged = haveIdentifiersChanged(oldIdentifiers, newIdentifiers)
     if (identifiersChanged) {
       let newIdentifierDetails = { ...this.state.identifierDetails }
-      if (newIdentifiers.length == oldIdentifiers.length) {
+      if (newIdentifiers.length === oldIdentifiers.length) {
         for (let i = 0; i < newIdentifiers.length; i++) {
-          if (newIdentifiers[i].full != oldIdentifiers[i].full) {
-            if (newIdentifiers[i].type == oldIdentifiers[i].type) {
+          if (newIdentifiers[i].full !== oldIdentifiers[i].full) {
+            if (newIdentifiers[i].type === oldIdentifiers[i].type) {
               const text = newIdentifierDetails[oldIdentifiers[i].full]
               if (!newIdentifierDetails[newIdentifiers[i].full]) {
                 newIdentifierDetails[newIdentifiers[i].full] = text
