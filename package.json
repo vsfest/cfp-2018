@@ -1,0 +1,17 @@
+{
+  "name": "cfp-2018",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev-js": "cd client && npm start",
+    "dev-rails": "bin/rails s -p 3001 -b 0.0.0.0",
+    "dev": "npm-run-all dev-js dev-rails"
+  },
+  "author": "",
+  "dependencies": {
+    "npm-run-all": "^4.1.1"
+  }
+}
