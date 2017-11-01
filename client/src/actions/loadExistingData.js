@@ -13,7 +13,7 @@ export default async () => {
       }
     } else {
       try {
-        const response = await fetch(`/api/proposals/${existingId}`)
+        const response = await fetch(`/api/proposals/${existingId}?unredacted=true`)
         const json = await response.json()
         return {
           type: 'existing',
