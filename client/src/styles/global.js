@@ -1,6 +1,5 @@
 import 'css-wipe'
 import { injectGlobal } from 'styled-components'
-import './global.css'
 
 injectGlobal`
   * {
