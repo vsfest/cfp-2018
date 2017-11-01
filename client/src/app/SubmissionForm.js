@@ -12,27 +12,24 @@ import Para from '../lib/Para'
 import Field from '../lib/Field'
 import Button from '../lib/Button'
 import Link from '../lib/Link'
+import submit from '../actions/submit'
 
 export default class App extends Component {
   state = {
     submission: new Submission(store.conference, store.existing),
     inProgress: false,
-    submitted: false,
   }
 
   onSubmit(e) {
     e.preventDefault()
     this.setState({ inProgress: true })
-    this.state.submission.submit()
-      .then(response => this.setState({
-        submitted: `${window.location.href.replace(/\?\w+$/, '')}?${response.sekret}`,
-      }))
+    submit(this.state.submission)
   }
 
   render() {
-    const { submission, inProgress, submitted } = this.state
+    const { submission, inProgress } = this.state
     const { newnessOptions, locationOptions, techExperienceOptions, speakingExperienceOptions } = FormData(store.conference)
-    const blogPostUrl = '/2016/07/01/cfp.html'
+    const blogPostUrl = `${store.conference.url}/call-for-speakers`
 
     return (
       <Form onSubmit={ this.onSubmit.bind(this) } inProgress={ inProgress }>
@@ -40,26 +37,26 @@ export default class App extends Component {
           { store.conference.title } call for proposals
         </Header>
         { submission.example
-          ? <Para>This is an example proposal that was accepted in a previous year.</Para>
+          ?
+          <Para>
+            This is an example proposal that was accepted in a previous year.
+          </Para>
           :
           <Para>
             This year we're doing things a little differently, you should have
-            a <a target="_blank" href={ blogPostUrl } className="Link">read about why</a>. <strong>Submissions are open until July 31st.</strong>
+            a <Link external href={ blogPostUrl }>
+            read about why</Link>. <strong>Submissions are open until December 1st.</strong>
           </Para>
         }
         <hr/>
         <TextField name="title" label="Title" form={ submission }/>
-        <Field className="Field">
-          <Field.Label className="Field_Label">
+        <Field>
+          <Field.Label>
             Talk Description
           </Field.Label>
-          <Field.Note className="Field_Note">
+          <Field.Note>
             <strong>NOTE</strong> please replace anything personally-identifiable in your talk submission with a
             string like COMPANY_A, PROJECT_B, PERSON_C, or OTHER_D.
-            <br/>
-            Confused about why? See the
-            a <Link external href={ blogPostUrl + "#anonymised-description-field" }>relevant section</Link> of
-            the CFP blog post.
           </Field.Note>
           <SanitisingDescription name="description" label="Description" form={ submission }/>
         </Field>

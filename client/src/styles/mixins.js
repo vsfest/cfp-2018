@@ -29,7 +29,10 @@ const values = {
   '1': '1rem',
   '15': '1.5rem',
   '2': '2rem',
+  '3': '3rem',
+  '4': '4rem',
 }
+
 const all_spacings = {}
 for (let short_prop in properties) {
   for (let value in values) {

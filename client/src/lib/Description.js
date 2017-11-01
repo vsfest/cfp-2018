@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 
 const Description = styled.div`
-  .public-DraftEditor-content {
+  .public-DraftStyleDefault-block {
     padding: 3px 8px;
     min-height: 10rem;
   }
