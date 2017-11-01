@@ -1,6 +1,6 @@
 
 function group(list, func) {
-  const f = (func == undefined) ? (x => x) : func;
+  const f = (typeof func === 'undefined') ? (x => x) : func;
   let unique = [];
   let groups = [];
   for (let i = 0; i < list.length; i++) {

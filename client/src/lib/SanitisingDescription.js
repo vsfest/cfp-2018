@@ -147,10 +147,17 @@ export default class SanitisingDescription extends Component {
     const { handleUpdateField, handleUpdateIdentifierContext, handleUpdateIdentifierRedacted, handleUpdateIdentifierName } = this;
     return (
       <div>
-        <TextArea state={fieldState} readonly={example} onUpdate={handleUpdateField}></TextArea>
+        <TextArea state={fieldState} readonly={example} onUpdate={handleUpdateField}/>
         {
           identifiers.map((identifier,i) =>
-            <Identifier readonly={example} key={i} index={i} {...identifier} details={identifierDetails[identifier.full]} onUpdateContext={handleUpdateIdentifierContext} onUpdateName={handleUpdateIdentifierName} onUpdateRedacted={handleUpdateIdentifierRedacted}></Identifier>
+            <Identifier readonly={example}
+                        key={i}
+                        index={i}
+                        {...identifier}
+                        details={identifierDetails[identifier.full]}
+                        onUpdateContext={handleUpdateIdentifierContext}
+                        onUpdateName={handleUpdateIdentifierName}
+                        onUpdateRedacted={handleUpdateIdentifierRedacted}/>
           )
         }
       </div>

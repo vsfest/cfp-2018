@@ -31,4 +31,6 @@ Field.Text = styled.p`
   margin: 1rem 0 0;
 `
 
+Field.Input = Field.Text.withComponent('input')
+
 export default Field

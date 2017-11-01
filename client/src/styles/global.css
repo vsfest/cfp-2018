@@ -123,3 +123,27 @@ label span {
   display: inline-block;
   line-height: 1.25;
 }
+.Button {
+  font-size: 1rem;
+  padding: 1rem;
+  background: none;
+  border: 2px solid;
+  min-width: 10rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.Button:hover {
+  color: #000;
+  border-color: #000;
+}
+
+main.css .Button {
+  color: hsl(12, 86%, 48%);
+  border-color: hsl(12, 86%, 48%);
+}
+
+main.js .Button {
+  color: hsl(233, 71%, 40%);
+  border-color: hsl(233, 71%, 40%);
+}

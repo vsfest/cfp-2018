@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev-js": "cd client && npm start",
-    "dev-rails": "bin/rails s -p 3001",
+    "dev-rails": "bin/rails s -p 3001 -b 0.0.0.0",
     "dev": "npm-run-all dev-js dev-rails"
   },
   "author": "",

@@ -12,5 +12,5 @@ Rails.application.routes.draw do
   # get '/round2/:conf', to: 'rounds#round2_candidates'
   # get '/rejections/:conference', to: 'rounds#final_rejections'
 
-  root to: redirect("https://2018.cssconf.com.au")
+  root to: redirect('https://2018.cssconf.com.au')
 end

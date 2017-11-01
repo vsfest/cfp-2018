@@ -78,12 +78,12 @@ export default class App extends Component {
         <TextField name="twitter" label="Twitter Handle or Website" form={ submission } required={ false }/>
         <TextField type="email" name="email" label="Email Address" form={ submission }/>
         <TextField type="text" name="anythingElse" label="Anything else you need to tell us?" form={ submission } required={ false }/>
-        { /*{ submission.example ? null :*/ }
+        { submission.example ? null :
           <Form.Buttons>
-          <Para>Once you're happy with your submission, send it to us. You will receive a link to access your proposals afterwards.</Para>
-          <Button type="submit">{ submission.inProgress ? 'Saving...' : submission.sekret ? 'Save' : 'Submit' }</Button>
+            <Para>Once you're happy with your submission, send it to us. You will receive a link to access your proposals afterwards.</Para>
+            <Button type="submit">{ submission.inProgress ? 'Saving...' : submission.sekret ? 'Save' : 'Submit' }</Button>
           </Form.Buttons>
-        { /*}*/ }
+        }
       </Form>
     )
   }
