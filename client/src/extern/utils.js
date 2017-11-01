@@ -21,6 +21,7 @@ function group(list, func) {
 function findWithRegex(regex, contentBlock, callback) {
   let text = contentBlock.getText();
   let matchArr, start = 0;
+  // eslint-disable-next-line no-cond-assign
   while ((matchArr = regex.exec(text)) !== null) {
     callback(start + matchArr.index, start + matchArr.index + matchArr[0].length);
     start += matchArr.index + matchArr[0].length;
