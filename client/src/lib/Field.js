@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 const Field = styled.div`
   padding: 1rem 0;
@@ -21,16 +21,5 @@ Field.Note = styled.p`
     color: black;
   }
 `
-
-Field.Text = styled.p`
-  font-family: inherit;
-  font-size: 1em;
-  line-height: 1.6em;
-  padding: 0.1em 0.3em;
-  width: 100%;
-  margin: 1rem 0 0;
-`
-
-Field.Input = Field.Text.withComponent('input')
 
 export default Field
