@@ -80,7 +80,7 @@ export default class App extends Component {
         <TextField type="text" name="twitter" label="Twitter Handle or Website" form={ submission } required={ false }/>
         <TextField type="email" name="email" label="Email Address" form={ submission }/>
         <TextField type="text" name="anythingElse" label="Anything else you need to tell us?" form={ submission } required={ false }/>
-        <BooleanCheckBox name="readTheCfp"
+        <BooleanCheckBox name="readTheCodeOfConduct"
                          text="Yes, and I agree to be bound by it."
                          form={ submission }>
           Have you read our <Link external href={`${store.conference.url}/code-of-conduct`}>Code of Conduct</Link>

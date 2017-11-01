@@ -6,7 +6,7 @@ const emptyData = {
     redactions: {}
   },
   submitToBoth: false,
-  readTheCfp: false,
+  readTheCodeOfConduct: false,
 }
 
 export default class Submission {
