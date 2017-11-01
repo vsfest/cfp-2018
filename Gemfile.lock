@@ -48,6 +48,8 @@ GEM
     ffi (1.9.10)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    heroku-deflater (0.6.3)
+      rack (>= 1.4.5)
     i18n (0.7.0)
     json (1.8.3)
     listen (3.0.8)
@@ -137,6 +139,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt (~> 3.1.7)
   byebug
+  heroku-deflater
   listen (~> 3.0.5)
   pg (~> 0.18)
   pry
@@ -152,4 +155,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.5
+   1.15.3
