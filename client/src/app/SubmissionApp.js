@@ -7,6 +7,7 @@ import { primary } from '../styles/colors'
 import SubmissionForm from './SubmissionForm'
 import InertMessage from '../lib/InertMessage'
 import ThankYou from '../lib/ThankYou'
+import { Helmet } from 'react-helmet'
 
 const Container = styled.div`
   padding: 1rem;
@@ -18,10 +19,13 @@ const Container = styled.div`
 const SubmissionApp = () => (
   <ThemeProvider theme={ { conference: store.conference.id } }>
     <Container>
+      <Helmet>
+        <title>Call for Proposals — { store.conference.title }</title>
+      </Helmet>
       { store.loading
         ? <InertMessage>Loading...</InertMessage>
         : store.submission_complete
-          ? <ThankYou url={ store.submission }/>
+          ? <ThankYou url={ store.submission_url }/>
           : <SubmissionForm/>
       }
     </Container>
