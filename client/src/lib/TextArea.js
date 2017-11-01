@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Editor, ContentState} from 'draft-js'
+import Description from './Description'
 
 export default class TextArea extends Component {
 
@@ -10,10 +11,10 @@ export default class TextArea extends Component {
       }
     };
     return (
-      <div className="Description_Container">
-        <div className="Description_Field">
+      <div>
+        <Description.Field>
           <Editor editorState={this.props.state} onChange={handleUpdate} />
-        </div>
+        </Description.Field>
       </div>
     );
   }

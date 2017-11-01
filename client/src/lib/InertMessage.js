@@ -1,10 +1,9 @@
-import React from 'react'
 import styled from 'styled-components'
 
 import { container } from '../styles/mixins'
 
 export default styled.main`
-  ${ container }
+  ${ container };
   
   min-height: calc(100vh - 4rem);
   display: flex;
