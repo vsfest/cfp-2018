@@ -1,5 +1,4 @@
 class Proposal < ApplicationRecord
-  serialize :submission # accidentally did this as YAML lol
   serialize :round1_stats, JSON
   has_many :votes
 
