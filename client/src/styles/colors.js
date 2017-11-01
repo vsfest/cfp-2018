@@ -1,6 +1,7 @@
 export const primary = {
-  css: 'hsl(12, 86%, 48%)',
-  js: 'hsl(233, 71%, 40%)',
+  js: 'hsla(218, 98%, 38%, 1)',
+  css: 'hsla(28, 100%, 50%, 1)',
+  decompress: 'hsla(0, 100%, 62%, 1)',
 }
 
 export const borderColors = [

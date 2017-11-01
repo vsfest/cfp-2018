@@ -4,7 +4,9 @@ const emptyData = {
     text: '',
     context: {},
     redactions: {}
-  }
+  },
+  submitToBoth: false,
+  readTheCfp: false,
 }
 
 export default class Submission {

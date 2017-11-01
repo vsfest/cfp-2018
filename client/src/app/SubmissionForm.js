@@ -13,6 +13,7 @@ import Field from '../lib/Field'
 import Button from '../lib/Button'
 import Link from '../lib/Link'
 import submit from '../actions/submit'
+import BooleanCheckBox from '../lib/BooleanCheckBox'
 
 export default class App extends Component {
   state = {
@@ -28,7 +29,7 @@ export default class App extends Component {
 
   render() {
     const { submission, inProgress } = this.state
-    const { newnessOptions, locationOptions, techExperienceOptions, speakingExperienceOptions } = FormData(store.conference)
+    const { newnessOptions, locationOptions, techExperienceOptions, speakingExperienceOptions, conferenceOptions } = FormData(store.conference)
     const blogPostUrl = `${store.conference.url}/call-for-speakers`
 
     return (
@@ -64,6 +65,10 @@ export default class App extends Component {
         <TextField name="gender" label="Gender" form={ submission }>
           Feel free to put "Prefer not to say".
         </TextField>
+        <BooleanCheckBox name="submitToBoth"
+                         label={ `Would you like this talk to be considered for ${store.conference.id === 'js' ? 'CSSConf' : 'JSConf'} as well?` }
+                         text="Yep, this would work at either event."
+                         form={ submission }/>
         <RadioButton name="location" label="Location" options={ locationOptions } form={ submission }/>
         <RadioButton name="techExperience" label="Tech industry experience" options={ techExperienceOptions }
                      form={ submission }/>
@@ -71,10 +76,15 @@ export default class App extends Component {
                      form={ submission }/>
         <RadioButton name="flights" label="Can your company pay for flights" options={ ["Yes", "No"] }
                      form={ submission }/>
-        <TextField type="text" name="name" label="Your Name" form={ submission }/>
-        <TextField name="twitter" label="Twitter Handle or Website" form={ submission } required={ false }/>
+        <TextField type="text" name="speakerName" label="Your Name" form={ submission }/>
+        <TextField type="text" name="twitter" label="Twitter Handle or Website" form={ submission } required={ false }/>
         <TextField type="email" name="email" label="Email Address" form={ submission }/>
         <TextField type="text" name="anythingElse" label="Anything else you need to tell us?" form={ submission } required={ false }/>
+        <BooleanCheckBox name="readTheCfp"
+                         text="Yes, and I agree to be bound by it."
+                         form={ submission }>
+          Have you read our <Link external href={`${store.conference.url}/code-of-conduct`}>Code of Conduct</Link>
+        </BooleanCheckBox>
         { submission.example ? null :
           <Form.Buttons>
             <Para>Once you're happy with your submission, send it to us. You will receive a link to access your proposals afterwards.</Para>
