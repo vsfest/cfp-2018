@@ -45,7 +45,7 @@ export default class App extends Component {
           <Para>
             This year we're doing things a little differently, you should have
             a <Link external href={ blogPostUrl }>
-            read about why</Link>. <strong>Submissions are open until July 31st.</strong>
+            read about why</Link>. <strong>Submissions are open until December 1st.</strong>
           </Para>
         }
         <hr/>

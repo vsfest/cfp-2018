@@ -23,10 +23,11 @@ const Input = styled.input`
 export default class extends React.Component {
   state = { touched: false }
   onTouched = () => this.setState({ touched: true })
+  setRef = el => el && el.addEventListener('invalid', this.onTouched)
 
   render() {
     return (
-      <Input onInvalid={ this.onTouched }
+      <Input innerRef={ this.setRef }
              onBlur={ this.onTouched }
              touched={ this.state.touched }
              { ...this.props }/>
