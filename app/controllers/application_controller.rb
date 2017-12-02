@@ -10,9 +10,9 @@ class ApplicationController < ActionController::Base
       id = Rails.application.message_verifier(:session).verify(bearer_token)
       @user = User.find(id)
     end
-    render status: :forbidden unless @user
+    render body: nil, status: :forbidden unless @user
   rescue ActiveSupport::MessageVerifier::InvalidSignature
-    render status: :forbidden
+    render body: nil, status: :forbidden
   end
 
   def bearer_token
