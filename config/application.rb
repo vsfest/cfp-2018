@@ -29,7 +29,7 @@ module VsconfCfp
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins /.*localhost:\d\d\d\d$/,/(css|js)-cfp.surge.sh$/,'2016.cssconf.com.au','2016.jsconfau.com','vsconf-cfp-voting.surge.sh'
+        origins /.*localhost:\d\d\d\d$/,/0.0.0.0:\d\d\d\d$/,'vsconf-cfp-voting-2018.surge.sh'
         resource '*', headers: :any, methods: [:get, :post, :options]
       end
     end
