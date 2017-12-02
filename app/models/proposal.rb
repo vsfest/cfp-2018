@@ -8,7 +8,7 @@ class Proposal < ApplicationRecord
 
   def redacted(original_url)
     safe = self.attributes.except('user_id')
-    safe['submission'] = safe['submission'].except 'flights','twitter','photo','email','name'
+    safe['submission'] = safe['submission'].except 'flights','twitter','photo','email','speakerName','gender'
     safe['submission']['description'].delete 'redactions'
     safe['FULL_SUBMISSION_UNREDACTED'] = if original_url =~ /#{sekret}$/
       original_url + '?unredacted=true'
