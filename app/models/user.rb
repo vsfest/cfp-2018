@@ -14,7 +14,7 @@ class User
     new(4, 'isakiko', '$2a$10$JtO2lrbOwYBhOuKRZhASeu.8UXVNvJYJSVoGyGychz/AvPkB7a0vC'),
     new(5, 'xzyfer',  '$2a$10$PFJLm4n4BW/8yP7foehba.Kt8I1vNXl6cDt1NBkysRY5dtc75k/ea'),
     new(6, 'rob',     '$2a$04$IfcQpss7kt1Nh1crMSUOC.bTQSjcxwvSwxD.bCvHmV5YsYzIk3/Xu'),
-    new(7, 'jordan',  '$2a$04$V5z3dX8QdMM.Wxy1d94D9uVGelU5y.JBq9grvdhUcdKHFEkt9stWa'),
+    new(7, 'jordan',  '$2a$10$vSTJu88elHnWahAiBBGAZe9Sj.tNgAnIqTgEZj5eX3Nwani1bulle'),
     new(8, 'sharkie', '$2a$04$BIqMhj4hEJfb2gTcByjXbOftQfIBkft8nKlyddu2U07p6LiyoIeAW'),
   ]
   USERS_BY_ID = USERS.index_by(&:id)
