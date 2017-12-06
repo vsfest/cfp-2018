@@ -15,7 +15,7 @@ class User
     new(5, 'xzyfer',  '$2a$10$PFJLm4n4BW/8yP7foehba.Kt8I1vNXl6cDt1NBkysRY5dtc75k/ea'),
     new(6, 'rob',     '$2a$10$fZHNAOoIYYUPl4dQN/Eo8.L/EyKwKIZg7XxW5pVaCHN4tG3BRIw8O'),
     new(7, 'jordan',  '$2a$10$vSTJu88elHnWahAiBBGAZe9Sj.tNgAnIqTgEZj5eX3Nwani1bulle'),
-    new(8, 'sharkie', '$2a$04$BIqMhj4hEJfb2gTcByjXbOftQfIBkft8nKlyddu2U07p6LiyoIeAW'),
+    new(8, 'sharkie', '$2a$10$.78XxGdhszjE/wSSypjpie0nlQvwKCNQvwYsyKrOVRaWTPdZjm4kC'),
   ]
   USERS_BY_ID = USERS.index_by(&:id)
 
