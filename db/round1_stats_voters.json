@@ -1,0 +1,116 @@
+{
+  "1": {
+    "user_id": 1,
+    "total": 627,
+    "mean": 0.23763955342902718,
+    "stddev": 1.3646199946239217,
+    "fullCounts": {
+      "user_id": 1,
+      "One thumb down": 122,
+      "Indifferent": 232,
+      "One thumb up": 172,
+      "Two thumbs up": 67,
+      "Veto": 34,
+      "Abstain positive": 8,
+      "Delay judgement": 4
+    }
+  },
+  "2": {
+    "user_id": 2,
+    "total": 635,
+    "mean": -0.42519685039370075,
+    "stddev": 1.6549600230172798,
+    "fullCounts": {
+      "user_id": 2,
+      "Veto": 111,
+      "One thumb down": 216,
+      "One thumb up": 99,
+      "Indifferent": 149,
+      "Two thumbs up": 60,
+      "Abstain positive": 5,
+      "Abstain negative": 1
+    }
+  },
+  "3": {
+    "user_id": 3,
+    "total": 630,
+    "mean": -2.0952380952380953,
+    "stddev": 1.6932572697041333,
+    "fullCounts": {
+      "user_id": 3,
+      "One thumb down": 63,
+      "One thumb up": 54,
+      "Veto": 466,
+      "Two thumbs up": 29,
+      "Abstain positive": 1,
+      "Delay judgement": 7,
+      "Indifferent": 18,
+      "Abstain negative": 1
+    }
+  },
+  "4": {
+    "user_id": 4,
+    "total": 564,
+    "mean": 1.2163120567375887,
+    "stddev": 1.3179138960388745,
+    "fullCounts": {
+      "user_id": 4,
+      "One thumb down": 18,
+      "Indifferent": 206,
+      "Delay judgement": 72,
+      "Two thumbs up": 182,
+      "One thumb up": 158,
+      "Abstain positive": 1,
+      "Abstain negative": 3
+    }
+  },
+  "5": {
+    "user_id": 5,
+    "total": 626,
+    "mean": 0.30351437699680506,
+    "stddev": 1.3824159689236648,
+    "fullCounts": {
+      "user_id": 5,
+      "Indifferent": 236,
+      "One thumb down": 169,
+      "One thumb up": 113,
+      "Two thumbs up": 95,
+      "Veto": 13,
+      "Abstain positive": 5,
+      "Abstain negative": 2,
+      "Delay judgement": 6
+    }
+  },
+  "6": {
+    "user_id": 6,
+    "total": 640,
+    "mean": 0.07187500000000002,
+    "stddev": 1.1016278792654985,
+    "fullCounts": {
+      "user_id": 6,
+      "Veto": 22,
+      "One thumb up": 155,
+      "Indifferent": 292,
+      "One thumb down": 139,
+      "Two thumbs up": 32,
+      "Abstain positive": 1
+    }
+  },
+  "7": {
+    "user_id": 7,
+    "total": 631,
+    "mean": 0.5863708399366087,
+    "stddev": 1.3681009251513891,
+    "fullCounts": {
+      "user_id": 7,
+      "Indifferent": 201,
+      "One thumb down": 145,
+      "Two thumbs up": 119,
+      "Abstain negative": 2,
+      "Abstain positive": 4,
+      "Delay judgement": 2,
+      "One thumb up": 164,
+      "Veto": 2
+    }
+  }
+}
