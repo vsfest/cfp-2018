@@ -18,6 +18,7 @@ class RoundsController < ApplicationController
       .map { |vote| {
         id: vote.id,
         user_id: vote.user_id,
+        user_name: User.find(vote.user_id).name,
         proposal_sekret: vote.proposal.sekret,
         proposal_title: vote.proposal.title,
         round: vote.round,
