@@ -10,41 +10,42 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160801112050) do
+ActiveRecord::Schema.define(version: 20160815064224) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "proposals", force: :cascade do |t|
-    t.integer  "user_id"
-    t.string   "title"
-    t.json     "submission"
+  create_table "proposals", id: :serial, force: :cascade do |t|
+    t.integer "user_id"
+    t.string "title"
+    t.json "submission"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string   "sekret",     null: false
-    t.string   "conference", null: false
+    t.string "sekret", null: false
+    t.string "conference", null: false
+    t.json "round1_stats"
   end
 
-  create_table "users", force: :cascade do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "twitter"
-    t.string   "gender"
-    t.string   "location"
-    t.string   "industry_experience"
-    t.string   "speaking_experience"
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
+  create_table "users", id: :serial, force: :cascade do |t|
+    t.string "name"
+    t.string "email"
+    t.string "twitter"
+    t.string "gender"
+    t.string "location"
+    t.string "industry_experience"
+    t.string "speaking_experience"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
-  create_table "votes", force: :cascade do |t|
-    t.integer  "user_id"
-    t.integer  "proposal_id"
-    t.integer  "round"
-    t.string   "vote"
-    t.text     "comments"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+  create_table "votes", id: :serial, force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "proposal_id"
+    t.integer "round"
+    t.string "vote"
+    t.text "comments"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
