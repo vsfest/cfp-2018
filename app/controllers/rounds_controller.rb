@@ -6,11 +6,24 @@ class RoundsController < ApplicationController
   # GET /rounds/:id
   def show
     @votes = Vote.where(round: params[:id])
-      .index_by { |p| [p[:user_id], p[:proposal_id]] }.values
+      .includes(:proposal)
+      .index_by { |p| [p[:user_id], p[:proposal_id]] }
+      .values
     @proposals = Proposal.select(:id, :title, :conference, :sekret)
-      .where(id: @votes.map(&:id))
+      .where(['created_at < ?', DateTime.new(2017,12,2,12,0,0)]) #UTC 12 is end of Dec 1 for everyone.
+      .where(sekret: @votes.map { |v| v.proposal.sekret })
+      .index_by { |p| p['sekret'] }
 
-    render json: {votes: @votes, proposals: @proposals}
+    render json: {votes: @votes
+      .map { |vote| {
+        id: vote.id,
+        user_id: vote.user_id,
+        proposal_sekret: vote.proposal.sekret,
+        proposal_title: vote.proposal.title,
+        round: vote.round,
+        vote: vote.vote,
+        comments: vote.comments,
+      }}, proposals: @proposals}
   end
 
   def round1_rejects
