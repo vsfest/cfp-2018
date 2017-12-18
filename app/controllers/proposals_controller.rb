@@ -11,7 +11,9 @@ class ProposalsController < ApplicationController
         .map { |p| p.redacted(request.original_url) }
     end
 
-    render json: @proposals.index_by { |p| p['sekret'] }.values
+    render json: @proposals.index_by { |p| p['sekret'] }.values.map { |p|
+      p.attributes.merge({votes: p.vote_summary })
+    }
   end
 
   # GET /proposals/magic-hash
