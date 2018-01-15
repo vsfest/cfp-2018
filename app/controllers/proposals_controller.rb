@@ -5,14 +5,14 @@ class ProposalsController < ApplicationController
   # GET /proposals
   def index
     if params[:unredacted] == 'true'
-      @proposals = Proposal.all
+      @proposals = Proposal.all.to_a
     else
       @proposals = Proposal.all
         .map { |p| p.redacted(request.original_url) }
     end
 
     render json: @proposals.index_by { |p| p['sekret'] }.values.map { |p|
-      p.attributes.merge({votes: p.vote_summary })
+      p.merge({votes: p.vote_summary })
     }
   end
 
